@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.59.0 r39307</authoring_tool>
+    </contributor>
+    <created>2012-08-14T22:56:51</created>
+    <modified>2012-08-14T22:56:51</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras/>
+  <library_lights/>
+  <library_effects>
+    <effect id="MainColour1-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.390893 0.2196972 0 1</color>
+            </diffuse>
+            <specular>
+              <color>0.5 0.4999499 0.4999499 1</color>
+            </specular>
+            <shininess>
+              <float>50</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.05395921</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="Black-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.072 0.07199281 0.07199281 1</color>
+            </diffuse>
+            <specular>
+              <color>0.5 0.4999499 0.4999499 1</color>
+            </specular>
+            <shininess>
+              <float>50</float>
+            </shininess>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="MainColour1-material" name="MainColour1">
+      <instance_effect url="#MainColour1-effect"/>
+    </material>
+    <material id="Black-material" name="Black">
+      <instance_effect url="#Black-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Circle-mesh">
+      <mesh>
+        <source id="Circle-mesh-positions">
+          <float_array id="Circle-mesh-positions-array" count="54">2.009668 1.079668 0.8000001 1.230333 1.079668 0.8000001 1.313841 1.148201 0.8000001 1.409114 1.199126 0.8000001 1.512492 1.230485 0.8000001 1.620001 1.241074 0.8000001 1.72751 1.230485 0.8000001 1.830888 1.199125 0.8000001 1.926161 1.1482 0.8000001 1.230333 1.079668 0.6700001 1.313841 1.148201 0.6700001 1.409114 1.199126 0.6700001 1.512492 1.230485 0.6700001 1.620001 1.241074 0.6700001 1.72751 1.230485 0.6700001 1.830888 1.199125 0.6700001 1.926161 1.1482 0.6700001 2.009668 1.079668 0.6700001</float_array>
+          <technique_common>
+            <accessor source="#Circle-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle-mesh-normals">
+          <float_array id="Circle-mesh-normals-array" count="60">0 0 1 0 0 1 0 0 1 0 0 1 0 9.88331e-7 1 0 0 1 0 0 1 -0.6343921 0.7730114 0 -0.4713953 0.8819221 0 -0.2902842 0.9569405 0 -0.09801518 0.9951849 0 0.09801965 0.9951845 0 0.2902852 0.9569401 0 0.4713988 0.8819203 0 0.6343938 0.77301 0 -6.11851e-7 -1 0 0 -4.34863e-7 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Circle-mesh-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Circle-mesh-vertices">
+          <input semantic="POSITION" source="#Circle-mesh-positions"/>
+        </vertices>
+        <polylist material="MainColour11" count="12">
+          <input semantic="VERTEX" source="#Circle-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Circle-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 4 4 4 4 3 </vcount>
+          <p>6 0 5 0 4 0 6 1 4 1 3 1 7 2 6 2 3 2 7 3 3 3 2 3 8 4 7 4 2 4 8 5 2 5 1 5 0 6 8 6 1 6 0 15 1 15 9 15 17 15 9 16 10 16 16 16 17 16 10 17 11 17 15 17 16 17 11 18 12 18 14 18 15 18 12 19 13 19 14 19</p>
+        </polylist>
+        <polylist material="Black2" count="8">
+          <input semantic="VERTEX" source="#Circle-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Circle-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>1 7 2 7 10 7 9 7 2 8 3 8 11 8 10 8 3 9 4 9 12 9 11 9 4 10 5 10 13 10 12 10 5 11 6 11 14 11 13 11 6 12 7 12 15 12 14 12 7 13 8 13 16 13 15 13 8 14 0 14 17 14 16 14</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Circle_001-mesh">
+      <mesh>
+        <source id="Circle_001-mesh-positions">
+          <float_array id="Circle_001-mesh-positions-array" count="54">2.009668 1.079668 0.8000001 1.230333 1.079668 0.8000001 1.313841 1.148201 0.8000001 1.409114 1.199126 0.8000001 1.512492 1.230485 0.8000001 1.620001 1.241074 0.8000001 1.72751 1.230485 0.8000001 1.830888 1.199125 0.8000001 1.926161 1.1482 0.8000001 1.230333 1.079668 0.6700001 1.313841 1.148201 0.6700001 1.409114 1.199126 0.6700001 1.512492 1.230485 0.6700001 1.620001 1.241074 0.6700001 1.72751 1.230485 0.6700001 1.830888 1.199125 0.6700001 1.926161 1.1482 0.6700001 2.009668 1.079668 0.6700001</float_array>
+          <technique_common>
+            <accessor source="#Circle_001-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_001-mesh-normals">
+          <float_array id="Circle_001-mesh-normals-array" count="60">0 0 1 0 0 1 0 0 1 0 0 1 0 9.88331e-7 1 0 0 1 0 0 1 -0.6343921 0.7730114 0 -0.4713953 0.8819221 0 -0.2902842 0.9569405 0 -0.09801518 0.9951849 0 0.09801965 0.9951845 0 0.2902852 0.9569401 0 0.4713988 0.8819203 0 0.6343938 0.77301 0 -6.11851e-7 -1 0 0 -4.34863e-7 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Circle_001-mesh-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Circle_001-mesh-vertices">
+          <input semantic="POSITION" source="#Circle_001-mesh-positions"/>
+        </vertices>
+        <polylist material="MainColour11" count="12">
+          <input semantic="VERTEX" source="#Circle_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Circle_001-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 4 4 4 4 3 </vcount>
+          <p>6 0 5 0 4 0 6 1 4 1 3 1 7 2 6 2 3 2 7 3 3 3 2 3 8 4 7 4 2 4 8 5 2 5 1 5 0 6 8 6 1 6 0 15 1 15 9 15 17 15 9 16 10 16 16 16 17 16 10 17 11 17 15 17 16 17 11 18 12 18 14 18 15 18 12 19 13 19 14 19</p>
+        </polylist>
+        <polylist material="Black2" count="8">
+          <input semantic="VERTEX" source="#Circle_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Circle_001-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>1 7 2 7 10 7 9 7 2 8 3 8 11 8 10 8 3 9 4 9 12 9 11 9 4 10 5 10 13 10 12 10 5 11 6 11 14 11 13 11 6 12 7 12 15 12 14 12 7 13 8 13 16 13 15 13 8 14 0 14 17 14 16 14</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Circle" type="NODE">
+        <translate sid="location">-1.440159 -0.9738513 -0.5822024</translate>
+        <rotate sid="rotationZ">0 0 1 269.9935</rotate>
+        <rotate sid="rotationY">0 1 0 -0.0181139</rotate>
+        <rotate sid="rotationX">1 0 0 89.97968</rotate>
+        <scale sid="scale">1.1 1.5 -0.9</scale>
+        <instance_geometry url="#Circle-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MainColour11" target="#MainColour1-material"/>
+              <instance_material symbol="Black2" target="#Black-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Circle_001" type="NODE">
+        <translate sid="location">0.1580523 -0.9740335 -0.582769</translate>
+        <rotate sid="rotationZ">0 0 1 269.9935</rotate>
+        <rotate sid="rotationY">0 1 0 -0.0181139</rotate>
+        <rotate sid="rotationX">1 0 0 89.97968</rotate>
+        <scale sid="scale">1.1 1.5 -0.9</scale>
+        <instance_geometry url="#Circle_001-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MainColour11" target="#MainColour1-material"/>
+              <instance_material symbol="Black2" target="#Black-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
