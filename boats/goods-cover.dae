@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53177</authoring_tool>
+    </contributor>
+    <created>2012-12-28T18:44:18</created>
+    <modified>2012-12-28T18:44:18</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="MainColour1_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.06600001 0.12 0.08044719 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.249975 0.249975 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="MainColour1_001-material" name="MainColour1_001">
+      <instance_effect url="#MainColour1_001-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="ID353_002-mesh" name="ID353.002">
+      <mesh>
+        <source id="ID353_002-mesh-positions">
+          <float_array id="ID353_002-mesh-positions-array" count="36">399.5176 33.05067 78.29372 37.72386 51.29787 78.29372 37.72386 33.05067 78.29372 399.5176 51.29787 78.29372 399.5176 33.05067 78.29372 37.72386 11.18894 23.09729 399.5176 11.18894 23.09729 37.72386 33.05067 78.29372 37.72386 51.29787 78.29372 399.5176 72.30764 22.16337 37.72386 72.30764 22.16337 399.5176 51.29787 78.29372</float_array>
+          <technique_common>
+            <accessor source="#ID353_002-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID353_002-mesh-normals">
+          <float_array id="ID353_002-mesh-normals-array" count="18">0 0 1 0 0 1 0 -0.9297308 0.3682398 0 -0.9297308 0.3682399 0 0.9365436 0.3505512 0 0.9365436 0.3505512</float_array>
+          <technique_common>
+            <accessor source="#ID353_002-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID353_002-mesh-map-0">
+          <float_array id="ID353_002-mesh-map-0-array" count="36">3.143655 1.377111 31.62463 1.377111 3.143655 2.137411 3.143655 2.137411 31.62463 1.377111 31.62463 2.137411 31.62463 1.32314 31.62463 3.538584 3.143655 1.32314 3.143655 3.538584 3.143655 1.32314 31.62463 3.538584 -3.143655 -0.1621608 -3.143655 2.053283 -31.62463 -0.1621608 -31.62463 2.053283 -31.62463 -0.1621608 -3.143655 2.053283</float_array>
+          <technique_common>
+            <accessor source="#ID353_002-mesh-map-0-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID353_002-mesh-vertices">
+          <input semantic="POSITION" source="#ID353_002-mesh-positions"/>
+        </vertices>
+        <polylist material="MainColour1_001-material" count="6">
+          <input semantic="VERTEX" source="#ID353_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID353_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID353_002-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 </vcount>
+          <p>2 0 0 0 0 1 1 0 2 1 1 3 0 1 4 3 1 5 6 2 6 4 2 7 5 2 8 7 3 9 5 3 10 4 3 11 10 4 12 8 4 13 9 4 14 11 5 15 9 5 16 8 5 17</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene>
+      <node id="_003" name="_003" type="NODE">
+        <translate sid="location">0.4670866 -4.15612 0.04683578</translate>
+        <rotate sid="rotationZ">0 0 1 90</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.0108 0.0108 0.01070231</scale>
+        <instance_geometry url="#ID353_002-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MainColour1_001-material" target="#MainColour1_001-material">
+                <bind_vertex_input semantic="UVTex" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url=""/>
+  </scene>
+</COLLADA>
