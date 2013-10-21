@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53177</authoring_tool>
+    </contributor>
+    <created>2013-10-21T15:52:34</created>
+    <modified>2013-10-21T15:52:34</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Craven_green_2-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.092752 0.248 0.09337299 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.1504631 0.3061 0.1093024 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="Coal-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.036 0.036 0.036 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.7 0.7 0.7 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="Buffer_Red-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.328 0.04919999 0.04919999 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Craven_green_2-material" name="Craven_green_2">
+      <instance_effect url="#Craven_green_2-effect"/>
+    </material>
+    <material id="Coal-material" name="Coal">
+      <instance_effect url="#Coal-effect"/>
+    </material>
+    <material id="Buffer_Red-material" name="Buffer_Red">
+      <instance_effect url="#Buffer_Red-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_016-mesh" name="Cube.016">
+      <mesh>
+        <source id="Cube_016-mesh-positions">
+          <float_array id="Cube_016-mesh-positions-array" count="120">0.1548576 0.8246957 -0.4918923 0.1548575 0.2384378 -0.4918923 -0.1228763 0.2384377 -0.4918923 -0.1228761 0.824696 -0.4918923 0.1548576 0.8246954 0.4918923 0.1548575 0.2384375 0.4918923 -0.1228763 0.238438 0.4918923 -0.1228762 0.8246957 0.4918923 -0.1228759 1.036723 0.4918923 0.1548579 1.036722 0.4918923 -0.1228759 1.036723 -0.4918922 0.1548578 1.036723 -0.4918922 -0.2617903 1.036723 -0.4918922 -0.2617904 1.036723 0.4918923 -0.2617906 0.8246958 0.4918923 -0.2617905 0.8246961 -0.4918923 -0.1228765 0.02641081 0.4918923 0.1548573 0.02641034 0.4918923 -0.1228765 0.02641057 -0.4918923 0.1548573 0.02641057 -0.4918923 -2.354106 0.02641052 0.4918923 -2.072867 0.02641057 0.4918923 -2.354106 0.02641028 -0.4918922 -2.072867 0.02641081 -0.4918922 -1.933953 0.8246961 0.4918923 -1.933953 0.8246958 -0.4918922 -1.933953 1.036723 -0.4918923 -1.933953 1.036723 0.4918923 -2.354107 1.036723 0.4918923 -2.072868 1.036723 0.4918923 -2.354107 1.036722 -0.4918923 -2.072868 1.036723 -0.4918923 -2.072867 0.8246957 -0.4918922 -2.072867 0.238438 -0.4918922 -2.354107 0.2384375 -0.4918922 -2.354107 0.8246954 -0.4918922 -2.072867 0.824696 0.4918923 -2.072867 0.2384377 0.4918923 -2.354107 0.2384377 0.4918923 -2.354107 0.8246957 0.4918923</float_array>
+          <technique_common>
+            <accessor source="#Cube_016-mesh-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_016-mesh-normals">
+          <float_array id="Cube_016-mesh-normals-array" count="108">0 0 -1 0 0 1 1 -2.28757e-7 0 -1 2.923e-7 0 1 -9.13634e-7 0 0 -2.81118e-7 1 0 2.81118e-7 -1 1.07305e-6 1 3.02935e-7 0 2.81118e-7 -1 8.58149e-7 1 2.42348e-7 0 -2.81118e-7 1 -8.58149e-7 -1 -2.42348e-7 -1 9.13634e-7 0 -1 9.48773e-7 0 1 -9.83913e-7 0 0 0 1 0 0 -1 -8.31616e-7 -1 0 8.80858e-7 -1 0 0 0 1 0 0 -1 -1 -1.12447e-6 0 1 1.12447e-6 0 1 5.62236e-7 1.21174e-7 8.5815e-7 -1 2.42348e-7 0 -2.81118e-7 -1 -8.58149e-7 1 -2.42348e-7 0 2.81118e-7 1 -1.05968e-6 1 -3.02935e-7 0 2.81118e-7 1 0 -2.81118e-7 -1 -1 -1.12447e-6 0 1 0 0 -1 0 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_016-mesh-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_016-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_016-mesh-positions"/>
+        </vertices>
+        <polylist material="Craven_green_2-material" count="36">
+          <input semantic="VERTEX" source="#Cube_016-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_016-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 2 0 3 0 4 1 7 1 6 1 5 1 0 2 4 2 5 2 1 2 2 3 6 3 7 3 3 3 4 4 0 4 11 4 9 4 7 5 4 5 9 5 8 5 0 6 3 6 10 6 11 6 9 7 11 7 10 7 8 7 10 8 3 8 15 8 12 8 8 9 10 9 12 9 13 9 7 10 8 10 13 10 14 10 3 11 7 11 14 11 15 11 15 12 14 12 13 12 12 12 6 13 2 13 18 13 16 13 1 14 5 14 17 14 19 14 5 15 6 15 16 15 17 15 2 16 1 16 19 16 18 16 19 17 17 17 16 17 18 17 20 18 22 18 23 18 21 18 37 19 38 19 20 19 21 19 34 20 33 20 23 20 22 20 38 21 34 21 22 21 20 21 33 22 37 22 21 22 23 22 24 23 25 23 26 23 27 23 36 24 32 24 25 24 24 24 32 25 31 25 26 25 25 25 31 26 29 26 27 26 26 26 29 27 36 27 24 27 27 27 30 28 28 28 29 28 31 28 39 29 36 29 29 29 28 29 32 30 35 30 30 30 31 30 35 31 39 31 28 31 30 31 37 32 33 32 32 32 36 32 39 33 35 33 34 33 38 33 35 34 32 34 33 34 34 34 39 35 38 35 37 35 36 35</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Cube_031-mesh" name="Cube.031">
+      <mesh>
+        <source id="Cube_031-mesh-positions">
+          <float_array id="Cube_031-mesh-positions-array" count="24">-1.432281 -0.6469855 -1.817789 -1.432281 2.129467 -1.817789 0.05825906 2.129467 -1.817789 0.05825906 -0.6469855 -1.817789 -1.432281 -0.6469855 -0.7252936 -1.432281 2.129467 -0.7252936 0.05825906 2.129467 -0.7252936 0.05825906 -0.6469855 -0.7252936</float_array>
+          <technique_common>
+            <accessor source="#Cube_031-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_031-mesh-normals">
+          <float_array id="Cube_031-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_031-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_031-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_031-mesh-positions"/>
+        </vertices>
+        <polylist material="Craven_green_2-material" count="6">
+          <input semantic="VERTEX" source="#Cube_031-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_031-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>1 0 0 0 4 0 5 0 5 1 6 1 2 1 1 1 6 2 7 2 3 2 2 2 0 3 3 3 7 3 4 3 0 4 1 4 2 4 3 4 7 5 6 5 5 5 4 5</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Cube_032-mesh" name="Cube.032">
+      <mesh>
+        <source id="Cube_032-mesh-positions">
+          <float_array id="Cube_032-mesh-positions-array" count="24">-1.432281 -0.6469855 -1.817789 -1.432281 2.129467 -1.817789 0.05825906 2.129467 -1.817789 0.05825906 -0.6469855 -1.817789 -1.432281 -0.6469855 4.025175 -1.432281 2.129467 4.025175 0.05825906 2.129467 4.025175 0.05825906 -0.6469855 4.025175</float_array>
+          <technique_common>
+            <accessor source="#Cube_032-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_032-mesh-normals">
+          <float_array id="Cube_032-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_032-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_032-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_032-mesh-positions"/>
+        </vertices>
+        <polylist material="Craven_green_2-material" count="6">
+          <input semantic="VERTEX" source="#Cube_032-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_032-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>1 0 0 0 4 0 5 0 5 1 6 1 2 1 1 1 6 2 7 2 3 2 2 2 0 3 3 3 7 3 4 3 0 4 1 4 2 4 3 4 7 5 6 5 5 5 4 5</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Cube_033-mesh" name="Cube.033">
+      <mesh>
+        <source id="Cube_033-mesh-positions">
+          <float_array id="Cube_033-mesh-positions-array" count="24">-1.432281 -0.6469855 -1.817789 -1.432281 2.129467 -1.817789 0.05825906 2.129467 -1.817789 0.05825906 -0.6469855 -1.817789 -1.432281 -0.6469855 4.025175 -1.432281 2.129467 4.025175 0.05825906 2.129467 4.025175 0.05825906 -0.6469855 4.025175</float_array>
+          <technique_common>
+            <accessor source="#Cube_033-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_033-mesh-normals">
+          <float_array id="Cube_033-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_033-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_033-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_033-mesh-positions"/>
+        </vertices>
+        <polylist material="Craven_green_2-material" count="6">
+          <input semantic="VERTEX" source="#Cube_033-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_033-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>1 0 0 0 4 0 5 0 5 1 6 1 2 1 1 1 6 2 7 2 3 2 2 2 0 3 3 3 7 3 4 3 0 4 1 4 2 4 3 4 7 5 6 5 5 5 4 5</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Cube_034-mesh" name="Cube.034">
+      <mesh>
+        <source id="Cube_034-mesh-positions">
+          <float_array id="Cube_034-mesh-positions-array" count="24">-1.432281 -0.6469855 -1.817789 -1.432281 2.129467 -1.817789 0.05825906 2.129467 -1.817789 0.05825906 -0.6469855 -1.817789 -1.432281 -0.6469855 -0.7252936 -1.432281 2.129467 -0.7252936 0.05825906 2.129467 -0.7252936 0.05825906 -0.6469855 -0.7252936</float_array>
+          <technique_common>
+            <accessor source="#Cube_034-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_034-mesh-normals">
+          <float_array id="Cube_034-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_034-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_034-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_034-mesh-positions"/>
+        </vertices>
+        <polylist material="Craven_green_2-material" count="6">
+          <input semantic="VERTEX" source="#Cube_034-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_034-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>1 0 0 0 4 0 5 0 5 1 6 1 2 1 1 1 6 2 7 2 3 2 2 2 0 3 3 3 7 3 4 3 0 4 1 4 2 4 3 4 7 5 6 5 5 5 4 5</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Cube_035-mesh" name="Cube.035">
+      <mesh>
+        <source id="Cube_035-mesh-positions">
+          <float_array id="Cube_035-mesh-positions-array" count="24">-15.1696 -0.6469855 -1.817789 -15.1696 1.035142 -1.817789 0.249387 1.035142 -1.817789 0.249387 -0.6469855 -1.817789 -15.1696 -0.6469855 3.990416 -15.1696 1.035142 5.01909 0.249387 1.035142 5.01909 0.249387 -0.6469855 3.990416</float_array>
+          <technique_common>
+            <accessor source="#Cube_035-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_035-mesh-normals">
+          <float_array id="Cube_035-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 -0.5217114 0.8531221</float_array>
+          <technique_common>
+            <accessor source="#Cube_035-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_035-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_035-mesh-positions"/>
+        </vertices>
+        <polylist material="Craven_green_2-material" count="5">
+          <input semantic="VERTEX" source="#Cube_035-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_035-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 </vcount>
+          <p>1 0 0 0 4 0 5 0 5 1 6 1 2 1 1 1 6 2 7 2 3 2 2 2 0 3 3 3 7 3 4 3 0 4 1 4 2 4 3 4</p>
+        </polylist>
+        <polylist material="Coal-material" count="1">
+          <input semantic="VERTEX" source="#Cube_035-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_035-mesh-normals" offset="1"/>
+          <vcount>4 </vcount>
+          <p>7 5 6 5 5 5 4 5</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Cube_015-mesh" name="Cube.015">
+      <mesh>
+        <source id="Cube_015-mesh-positions">
+          <float_array id="Cube_015-mesh-positions-array" count="24">-0.6315397 -0.6469855 -1.817789 -0.6315397 0.1361999 -1.817789 0.05825906 0.1361999 -1.817789 0.05825906 -0.6469855 -1.817789 -0.6315397 -0.6469855 0.02484261 -0.6315397 0.1361999 0.02484261 0.05825906 0.1361999 0.02484261 0.05825906 -0.6469855 0.02484261</float_array>
+          <technique_common>
+            <accessor source="#Cube_015-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_015-mesh-normals">
+          <float_array id="Cube_015-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_015-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_015-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_015-mesh-positions"/>
+        </vertices>
+        <polylist material="Buffer_Red-material" count="6">
+          <input semantic="VERTEX" source="#Cube_015-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_015-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>1 0 0 0 4 0 5 0 5 1 6 1 2 1 1 1 6 2 7 2 3 2 2 2 0 3 3 3 7 3 4 3 0 4 1 4 2 4 3 4 7 5 6 5 5 5 4 5</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Cube_020-mesh" name="Cube.020">
+      <mesh>
+        <source id="Cube_020-mesh-positions">
+          <float_array id="Cube_020-mesh-positions-array" count="24">-0.6315397 -0.6469855 -1.817789 -0.6315397 0.1361999 -1.817789 0.05825906 0.1361999 -1.817789 0.05825906 -0.6469855 -1.817789 -0.6315397 -0.6469855 0.02484261 -0.6315397 0.1361999 0.02484261 0.05825906 0.1361999 0.02484261 0.05825906 -0.6469855 0.02484261</float_array>
+          <technique_common>
+            <accessor source="#Cube_020-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_020-mesh-normals">
+          <float_array id="Cube_020-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_020-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_020-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_020-mesh-positions"/>
+        </vertices>
+        <polylist material="Buffer_Red-material" count="6">
+          <input semantic="VERTEX" source="#Cube_020-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_020-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>1 0 0 0 4 0 5 0 5 1 6 1 2 1 1 1 6 2 7 2 3 2 2 2 0 3 3 3 7 3 4 3 0 4 1 4 2 4 3 4 7 5 6 5 5 5 4 5</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Cube_024" name="Cube_024" type="NODE">
+        <translate sid="location">-0.752508 -1.100487 0.9500598</translate>
+        <rotate sid="rotationZ">0 0 1 180</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.6774846 0.4075753 0.5102126</scale>
+        <instance_geometry url="#Cube_016-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Craven_green_2-material" target="#Craven_green_2-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_023_010" name="Cube_023_010" type="NODE">
+        <translate sid="location">0.8361378 -1.040195 0.8587441</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.11 0.121 0.08490346</scale>
+        <instance_geometry url="#Cube_031-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Craven_green_2-material" target="#Craven_green_2-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_023_011" name="Cube_023_011" type="NODE">
+        <translate sid="location">0.8361378 -0.6990253 0.8587441</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.11 0.1359646 0.08490346</scale>
+        <instance_geometry url="#Cube_032-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Craven_green_2-material" target="#Craven_green_2-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_023_012" name="Cube_023_012" type="NODE">
+        <translate sid="location">-0.6991941 -0.6990253 0.8587441</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.11 0.1359646 0.08490346</scale>
+        <instance_geometry url="#Cube_033-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Craven_green_2-material" target="#Craven_green_2-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_023_013" name="Cube_023_013" type="NODE">
+        <translate sid="location">-0.6991941 -1.041494 0.8587441</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.11 0.121 0.08490346</scale>
+        <instance_geometry url="#Cube_034-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Craven_green_2-material" target="#Craven_green_2-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_023_014" name="Cube_023_014" type="NODE">
+        <translate sid="location">0.8113481 -0.3256095 0.8587441</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.11 0.1359646 0.08490346</scale>
+        <instance_geometry url="#Cube_035-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Craven_green_2-material" target="#Craven_green_2-material"/>
+              <instance_material symbol="Coal-material" target="#Coal-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_023_019" name="Cube_023_019" type="NODE">
+        <translate sid="location">0.8571059 -0.5798235 1.002743</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 90.49999</rotate>
+        <scale sid="scale">0.055 0.1573002 0.1018856</scale>
+        <instance_geometry url="#Cube_015-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Buffer_Red-material" target="#Buffer_Red-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Cube_023_020" name="Cube_023_020" type="NODE">
+        <translate sid="location">-0.843666 -0.5798235 1.002743</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 90.49999</rotate>
+        <scale sid="scale">0.055 0.1573002 0.1018856</scale>
+        <instance_geometry url="#Cube_020-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Buffer_Red-material" target="#Buffer_Red-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
