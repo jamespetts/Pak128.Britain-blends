@@ -12,3 +12,21 @@ Dato che il modello è lungo 5 quadrati blender e che la lunghezza totale in metr
 Per utilizzare il modello nel pakBritain occorre renderlo sufficentemente "dark", per far questo i colori dell'aereo possono essere lasciati bianchi ma occorre cambiare i soli presenti nella scena modificando il loro colore dal bianco al grigio, nello specifico il grigio con tutti i valori RGB a 0,56.
 
 Qualora, dopo la scaltura, si voglia allineare il modello al centro della casella occorre spostare il modello di 2,2 lungo l'asse Z.
+
+
+*** (Translated from Italian with Google Translate ***
+
+The model has yet to climb.
+
+Considering a scale factor of 46m per tile ( tile 128px ) we obtain that the model must be scaled by a factor of 0.801 .
+
+5 square blender along the X axis is approximately equivalent to 162pixel on the tile of 192px .
+
+Given that the model length is 5 square blender and that the total length in meters of the plane is 46.61 m is obtained that the scaling will be equal to :
+  Length plane in the desired px : 128: x = 46:46,61 -> x = 129.7 px
+  Length plane with 5quadrati blender ( with tile 192px ) : 162px
+  Scaling = 129.7 / 162 = 0.801
+
+To use the model in pakBritain must make it sufficiently "dark" colors to make this plane can be left white but needs to be changed only in the scene by changing their color from white to gray , specifically with all the gray values RGB to 0.56 .
+
+If, after the scaltura , you want to align the model at the center of the box , move the model along the Z axis 2.2
