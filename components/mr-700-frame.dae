@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53177</authoring_tool>
+    </contributor>
+    <created>2013-08-24T19:22:37</created>
+    <modified>2013-08-24T19:22:37</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Black-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.09492907 0.09492907 0.09492907 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Black-material" name="Black">
+      <instance_effect url="#Black-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_121-mesh" name="Plane.121">
+      <mesh>
+        <source id="Plane_121-mesh-positions">
+          <float_array id="Plane_121-mesh-positions-array" count="96">1 1.2 4.51 -0.9999997 1.2 4.51 1 1.349648 3.819091 -0.9999997 1.349649 3.819091 1 1.349648 3.523917 -0.9999997 1.349649 3.523917 1 1.2 3.341628 -0.9999997 1.2 3.341628 1 1.2 2.81 -0.9999997 1.2 2.81 1 1.2 2.61 -0.9999997 1.2 2.61 1 1.2 1.867002 -0.9999997 1.2 1.867002 1 1.378084 1.667002 -0.9999997 1.32665 1.667002 1 1.378084 1.436468 -0.9999997 1.32665 1.436468 1 1.2 1.236468 -0.9999997 1.2 1.236468 1 1.2 -0.4986767 -0.9999997 1.2 -0.4986767 1 1.357709 -0.6986767 -0.9999997 1.357709 -0.6986767 1 1.357709 -0.9292101 -0.9999997 1.357709 -0.9292101 1 1.2 -1.12921 -0.9999997 1.2 -1.12921 1 1.2 -1.59 -0.9999997 1.2 -1.59 1 1.198684 3.97582 -0.9999997 1.198684 3.97582</float_array>
+          <technique_common>
+            <accessor source="#Plane_121-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_121-mesh-normals">
+          <float_array id="Plane_121-mesh-normals-array" count="45">2.38419e-7 1 0 1.84276e-7 0.7729114 -0.6345139 2.38419e-7 1 0 2.38419e-7 1 0 2.38419e-7 1 1.60444e-7 -0.01022785 0.7954176 0.6059755 -0.02570867 0.9996695 0 -0.01022785 0.7954176 -0.6059755 2.38419e-7 1 0 1.87215e-7 0.7852373 0.619195 2.38419e-7 1 0 1.87215e-7 0.7852374 -0.6191949 2.38419e-7 1 0 2.38418e-7 0.999997 -0.002463042 1.71716e-7 0.7202283 0.6937372</float_array>
+          <technique_common>
+            <accessor source="#Plane_121-mesh-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_121-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_121-mesh-positions"/>
+        </vertices>
+        <polylist material="Black-material" count="15">
+          <input semantic="VERTEX" source="#Plane_121-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_121-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>3 0 2 0 4 0 5 0 5 1 4 1 6 1 7 1 7 2 6 2 8 2 9 2 9 3 8 3 10 3 11 3 11 4 10 4 12 4 13 4 13 5 12 5 14 5 15 5 15 6 14 6 16 6 17 6 17 7 16 7 18 7 19 7 19 8 18 8 20 8 21 8 21 9 20 9 22 9 23 9 23 10 22 10 24 10 25 10 25 11 24 11 26 11 27 11 27 12 26 12 28 12 29 12 0 13 30 13 31 13 1 13 30 14 2 14 3 14 31 14</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Plane_031" name="Plane_031" type="NODE">
+        <translate sid="location">2.62335e-4 -0.04187894 -0.02282834</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 90</rotate>
+        <scale sid="scale">1 0.85 0.8447354</scale>
+        <instance_geometry url="#Plane_121-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Black-material" target="#Black-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

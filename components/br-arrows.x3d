@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+<head>
+	<meta name="filename" content="br-arrows.x3d" />
+	<meta name="generator" content="Blender 2.56 (sub 0)" />
+	<meta name="translator" content="X3D exporter v1.55 (2006/01/17)" />
+</head>
+<Scene>
+<NavigationInfo headlight="false" visibilityLimit="0.0" type='"EXAMINE","ANY"' avatarSize="0.25, 1.75, 0.75" />
+<Background groundColor="0.1 0.1 0.1" skyColor="0.1 0.1 0.1" />
+
+<Collision enabled="false">
+	<Transform DEF="Plane_020" translation="0.000927 -3.553776 -9.075024" scale="1.000000 -3.214748 5.682990" rotation="-0.000000 -0.000000 0.000000 0.000000">
+	<Shape>
+		<Appearance>
+			<Material DEF="MA_FrostedWindow" diffuseColor="1.0 1.0 1.0" specularColor="0.401 0.401 0.401" emissiveColor="0.0 0.0 0.0" 
+				ambientIntensity="0.333" shininess="0.098" transparency="0.0" />			
+		</Appearance>
+		<IndexedFaceSet solid="true" coordIndex="3 4 1 -1, 5 4 19 18 -1, 0 7 2 -1, 7 6 5 -1, 7 5 2 -1, 4 5 6 -1, 4 6 1 -1, 6 7 9 8 -1, 13 14 11 -1, 15 14 16 17 -1, 10 19 12 -1, 19 18 15 -1, 19 15 12 -1, 14 15 18 -1, 14 18 11 -1, ">
+			<Coordinate DEF="coord_Plane_020" 
+				point="1.000872 1.500889 1.667882, 1.000872 1.500889 1.341978, 1.000872 1.555889 1.667882, 1.000872 1.555889 1.341978, 1.000872 1.555889 1.419930, 1.000872 1.555889 1.497939, 1.000872 1.500889 1.419930, 1.000872 1.500889 1.498906, 1.000872 1.410889 1.499930, 1.000872 1.410889 1.578906, 1.000872 1.640890 1.343915, 1.000872 1.640889 1.669820, 1.000872 1.695889 1.343915, 1.000872 1.695889 1.669820, 1.000872 1.695889 1.591867, 1.000872 1.695889 1.507891, 1.000872 1.785889 1.501868, 1.000872 1.785889 1.417892, 1.000872 1.641970 1.590500, 1.000872 1.641970 1.509024, " />			
+		</IndexedFaceSet>
+	</Shape>
+</Transform>
+</Collision>
+
+
+</Scene>
+</X3D>
