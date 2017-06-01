@@ -1,0 +1,13 @@
+Embraer ERJ 145
+---------------
+
+Author : BARANGER Emmanuel (helijah)
+tools  : Blender 2.78 and The Gimp 2.8
+Use    : For FlightGear
+
+This files are GPL.
+
+--------
+BARANGER Emmanuel
+http://helijah.free.fr
+http://embaranger.free.fr

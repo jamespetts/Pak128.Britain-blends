@@ -2,29 +2,44 @@ Aircraft 3d models available for download
 
 FREE
 
+** Big GPL collection **
+https://github.com/kalmykov/fr24-3d-models
+
 Lockheed L-749 Constellation
 http://www.cadnav.com/3d-models/model-11387.html
-http://www.cadnav.com/3d-models/model-1481.html
+
+Lockheed L-049 Constellation
+https://3dwarehouse.sketchup.com/model/uc032125a-50aa-4f18-9244-4f0b4bac3305/BOAC-Lockheed-L-049-Constellation-1947-Baltimore
 
 Lockheed L-1049 Super Constellation
 http://www.sharecg.com/v/77175/browse/5/3D-Model/Super-Constellation
 http://www.cadnav.com/3d-models/model-10443.html
-https://www.sharecg.com/v/11778/browse/5/3D-Model/Vintage-Aircraft-The-Constellation
+https://www.sharecg.com/v/11778/browse/5/3D-Model/Vintage-Aircraft-The-Constellation (textureless)
 
-Lockheed Model 10 Electra
+Lockheed L-1011 Tristar
+https://3dwarehouse.sketchup.com/model/udcb77dd0-c677-412d-88a2-3d13f0a79ae8/British
+-Airways-L-1011-385-1-TriStar-1-The-Coronation-Gold-Rose-1982
+https://3dwarehouse.sketchup.com/model/u68d2bd29-8552-4e58-8b88-c05ef177e4aa/British-Airways-L-1011-385-1-Tristar-1-1986
+https://3dwarehouse.sketchup.com/model/ufa35df5c-5f0e-4d39-8c1a-f74bfa64422f/Caledonian-Airways-L1011-100-1990
+
+Lockheed Model 10 Electra *
 http://www.cadnav.com/3d-models/model-1924.html
 https://www.sharecg.com/v/60893/browse/5/3D-Model/Lockheed-10E-Electra
 
-Beechcraft Beech 18
-http://www.sharecg.com/v/47789/browse/5/3D-Model/Beechcraft-Beech-18-C-45
+Lockheed L-188 Electra
+https://3dwarehouse.sketchup.com/model/6238a084882d848823ec80b94592ceeb/Lockheed-L188-Electra-II
+https://3dwarehouse.sketchup.com/model/4ef40b84-3bda-4fd8-886d-b45c344f8cc7/Hilos-Canada-F-1970-Lockheed-L-188C-Electra
+https://3dwarehouse.sketchup.com/model/23ee648778cd01d1c503a3776fc280fe/Template-Lockheed-L-188C-Electra (textureless)
+https://3dwarehouse.sketchup.com/model/e45b6de913a60a91c503a3776fc280fe/Template-Lockheed-L-188C-Electra (textureless)
 
-Beechcraft C18 S
+Beechcraft Model 18 *
+http://www.sharecg.com/v/47789/browse/5/3D-Model/Beechcraft-Beech-18-C-45
 https://www.blendswap.com/blends/view/78170
 
 Fairchild C-123 Provider
 https://www.sharecg.com/v/27859/browse/5/3D-Model/Fairchild-C-123-Provider
 
-Vickers VC-10
+Vickers VC-10 *
 https://www.sharecg.com/v/41953/browse/5/3D-Model/Vickers-Armstrong-VC-10
 
 Unknown (737? A320?)
@@ -40,52 +55,106 @@ http://www.cadnav.com/3d-models/model-28761.html
 http://www.cadnav.com/3d-models/model-35955.html
 https://www.blendswap.com/blends/view/87811
 https://clara.io/view/4446a747-cbc4-4485-bc76-985a32e80251/image
+https://3dwarehouse.sketchup.com/model/u28c69e2d-9e62-4e02-9b39-e16e1549be91/British-Airways-Airbus-A380-800-G-XLEB
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/british-airways-airbus-a380-842-2013
 
 Airbus A340
 http://forums.x-plane.org/index.php?/files/file/15312-3d-model-only-blend-airbus-340/
 https://www.cgtrader.com/free-3d-models/aircraft/commercial/template-airbus-a340500 (textureless)
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/china-airlines-airbus-a340-313x-b-18807-2015
+
+Airbus A350
+https://3dwarehouse.sketchup.com/model/u44f51562-8c61-4c34-be07-a550901ed726/British-Airways-Airbus-A350-900XWB-Modern-Landor
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/finnair-airbus-a350-941-oh-laws-2015-wi-fi-dome
+
+Airbus A330
+https://free3d.com/3d-model/lufthansa-aeroplane-48028.html
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/alitalia-airbus-a330-202-i-ejga-new-livery-2015-wi-fi-dome
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/airbus-a330-200-qantas-livery
 
 Boeing 767
 http://www.cadnav.com/3d-models/model-35060.html
+https://3dwarehouse.sketchup.com/model/u39d07088-f1c6-4638-b056-136d1bb9f87a/British-Airways-B767-G-BNWH-Landorutopia-Intrim
 
-Boeing 737-100
+Boeing 757
+https://3dwarehouse.sketchup.com/model/u6611ec62-cf28-4ad7-97b8-66bf73e094fb/British-Airways-Boeing-757-236-G-CPES
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/icelandair-cargo-boeing-757-200pf-edit
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/icelandair-boeing-757-200w-redux-edit-2
+
+Boeing 737-100 *
 https://www.blendswap.com/blends/view/75609
+
+Boeing 737-800
+https://www.blendswap.com/blends/view/85759
+
+Boeing 737 Max 8
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/icelandair-boeing-737-max-8-redux
+
+Boeing 737 Max 9
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/icelandair-boeing-737-max-9
 
 Boeing 747 (unknown)
 http://www.cadnav.com/3d-models/model-28743.html (textuerless)
 https://www.blendswap.com/blends/view/72297
 
 Boeing 747-8
-https://www.blendswap.com/blends/view/22686
+https://www.blendswap.com/blends/view/22686 (textureless)
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/boeing-747-8i-lufthansa-31939b6d0fed2edbc5ea14f754b87b9b#tab-comments
+
+Boeing 777-200
+https://3dwarehouse.sketchup.com/model/u1f77f087-3a7a-4d42-b159-453a0dba8560/British-Airways-Boeing-777-236-1998-G-ZZZA
+https://3dwarehouse.sketchup.com/model/uec126a3b-9f98-4550-aedc-8bef2dd03ab5/British-Airways-Boeing-777-200er-G-YMMH-Panda-plane
+
+Boeing 777-300ER
+https://3dwarehouse.sketchup.com/model/u08e999e6-62dc-4274-b1e9-b89f02c1682f/British-Airways-B777-300ER-G-STBH
 
 Boeing 787
 https://www.blendswap.com/blends/view/26936
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/klm-royal-dutch-airlines-boeing-787-9-dreamliner-ph-bhc-zonnebloem-new-livery-2015-wi-fi-dome
 
 Boeing 717
 https://www.blendswap.com/blends/view/38994 (textureless)
 
-Boeing 247 D
+Boeing 247 D *
 https://www.blendswap.com/blends/view/69994
+
+Boeing 307 Stratoliner *
+https://3dwarehouse.sketchup.com/model/11b1ef0f9fe3f65fe80771be8faac585/Boeing-307-Stratoliner (textureless)
+
+Boeing 377 Stratocruiser
+https://3dwarehouse.sketchup.com/model/bfa52c24ed71614f48a7b7802dc31138/BOAC-Boeing-377-stratocruiser
 
 Antonov AN 12
 https://www.blendswap.com/blends/view/71563
 
 De Havilland Comet 4
 https://www.blendswap.com/blends/view/83922
+https://3dwarehouse.sketchup.com/model/u9da6147e-60dc-4700-a7fe-0437fe85db48/BOAC-DeHavilland-Comet-4-G-APDN
 
-De Havilland DH9 Albatross
+De Havilland Comet 3
+https://3dwarehouse.sketchup.com/model/ufad895b1-6909-4087-b008-67948e29887b/De-Havilland-Comet-3
+
+De Havilland Comet 1
+https://3dwarehouse.sketchup.com/model/u4b75c3f7-724b-4dab-a12e-8faeeba6bdea/BOAC-1954-de-Havilland-Comet-1
+
+De Havilland DH91 Albatross *
 https://www.blendswap.com/blends/view/75762
 
-Fairchild Swearingen Metroliner
+De Havilland Dragon Rapide *
+https://www.cgtrader.com/free-3d-models/aircraft/historic/de-havilland-dh-89-dragon-rapide
+http://www.cadnav.com/3d-models/model-1921.html
+http://www.cadnav.com/3d-models/model-10449.html
+
+Fairchild Swearingen Metroliner *
 https://www.blendswap.com/blends/view/81970
 
 Cessna 421
 https://www.blendswap.com/blends/view/82050
 
-Aero Commander 500
+Aero Commander 500 *
 https://www.blendswap.com/blends/view/66578
 
-Dornier DO 288
+Dornier DO 228 *
 https://www.blendswap.com/blends/view/83744
 
 Breda-Zappata B. Z. 308
@@ -97,18 +166,51 @@ https://www.blendswap.com/blends/view/75867
 Bristol 167 Brabazon
 https://www.blendswap.com/blends/view/74087
 
-Embrarer ERJ 145
+Embraer ERJ 145 *
 https://www.blendswap.com/blends/view/73072
+
+Embraer ERJ 190
+https://3dwarehouse.sketchup.com/model/908b21f8c7ce7918b87697d3904b168b/British-European-Airways-ERJ-190-1972
+
+Embraer EMB-110
+https://3dwarehouse.sketchup.com/model/u9f9bcbd5-0165-4bf8-b940-77aaa66a0c48/Template-Embraer-EMB-110-Bandeirante (textureless)
+
+Bebraer EMB-120
+https://3dwarehouse.sketchup.com/model/u6ab585e8-9955-4e8a-b4b8-827358a24b22/Template-Embraer-EMB-120-Brasilia (textureless)
 
 Tupolev TU 134
 https://www.blendswap.com/blends/view/70950
 https://free3d.com/3d-model/tu-134-69131.html (textureless)
+
+Bristol Britannia
+https://3dwarehouse.sketchup.com/model/b84b30bcaa2705c9bc0909d98a1ff2b4/BOAC-Bristol-Britannia-102 
+
+Douglas DC-7C
+https://3dwarehouse.sketchup.com/model/f4453381943f6039eba96cf317eae721/BOAC-DC-7C-Seven-Seas-G-AOIB
+
+Douglas DC-8
+https://3dwarehouse.sketchup.com/model/u00ee941f-ac2f-43e7-b118-08c9b4dcc429/BOAC-Douglas-DC-8-40-fictional
+https://www.cgtrader.com/free-3d-models/aircraft/commercial/ati-dc-8-62hcf-at-lax--2
+
+Douglas DC-10
+https://3dwarehouse.sketchup.com/model/u8557675b-c14a-442f-a0d1-721121556434/British-Airways-DC-10-30-1992-G-BHDI
+
+Canadair CL-44
+https://3dwarehouse.sketchup.com/model/u72e96b5b-d8cd-4fb5-a794-52766a3a7d85/BOAC-Cargo-service-Canadair-CL44-1963
+
+HS Trident
+https://3dwarehouse.sketchup.com/model/u93d3025b-2bb0-44ea-9eda-e85c1efd272c/BEA-Hawker-Siddeley-Tident-2E-1964
 
 PAID
 
 Lockheed L-188 Electra
 https://www.cgtrader.com/3d-models/aircraft/commercial/lockheed-l-188-electra-hp-klm-royal-dutch
 https://www.cgtrader.com/3d-models/aircraft/historic/lockheed-l-188-electra-hp-corporate-3
+
+Lockheed TriStar
+https://www.cgtrader.com/3d-models/aircraft/commercial/lockheed-l1011-tristar-3d-model (textureless)
+https://www.cgtrader.com/3d-models/aircraft/commercial/lockheed-l-1011-tristar (plain livery)
+https://www.flatpyramid.com/3d-models/3ds-lockheed-l1011-low-poly-3d-studio-3ds
 
 De Havilland DHC-7
 https://www.cgtrader.com/3d-models/aircraft/historic/dehavilland-dhc-7-pan-american
@@ -131,6 +233,16 @@ https://www.cgtrader.com/3d-models/aircraft/historic/boeing-757-300-britannia-ai
 
 Boeing 377
 https://www.cgtrader.com/3d-models/aircraft/historic/boeing-377-boac-3
+
+Bristol Britannia
+https://www.turbosquid.com/3d-models/3d-3ds-bristol-britannia-airplane/673024
+
+Sud Aviation Caravelle
+https://www.flatpyramid.com/3d-models/caravelle-3ds-3d-studio-3ds
+
+Fokker 50
+https://www.turbosquid.com/3d-models/3d-model-fokker-50/905733
+https://www.turbosquid.com/3d-models/propellers-fokker-50-3d-3ds/906648
 
 ***
 
