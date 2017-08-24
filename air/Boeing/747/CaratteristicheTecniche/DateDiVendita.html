@@ -1,0 +1,1277 @@
+
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>
+				Boeing: Commercial Airplanes - 747 - About the 747 Family</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="title" content="Boeing: Commercial Airplanes - 747 - About the 747 Family"/>
+      <meta name="pageid" content="p8136"/>
+      <meta name="description" content="Instantly recognized by passengers around the world, the Boeing 747 is in a class by itself. The 747-8 continues the 747 family legacy by integrating advanced technology into one of the world's most modern and fuel-efficient airplanes."/>
+      <meta name="keywords" content="747 background, Boeing, BCA, Commercial Airplanes, 747"/>
+      <meta name="group" content="Boeing Commercial Airplanes"/>
+      <meta name="program" content="747"/>
+      <meta name="category" content="In Production"/>
+      <meta name="product_type" content="Airplane Programs"/>
+      <meta name="market_area" content="Commercial Aviation"/>
+      <meta name="reporting_segment" content="www_BCA Other"/>
+      <meta name="creation-date" content="1998-05-01"/>
+      <meta name="revision-date" content="2011-12-05"/>
+      <meta name="validuntil" content="2016-12-31"/>
+      <meta name="type" content="generic"/>
+      <meta name="robots" content="all"/>
+      <style xmlns="" type="text/css" media="screen">
+		  @import url(http://www.boeing.com/css/boeing_global_styles.css);
+		 </style>
+      <link xmlns="" rel="stylesheet" type="text/css" media="print" href="http://www.boeing.com/css/print.css"/>
+      <script type="text/javascript" src="http://www.boeing.com/Scripts/swfobject.js"> </script><script type="text/javascript" src="http://www.boeing.com/js/eluminate.js"></script>
+<script src="http://admin.brightcove.com/js/APIModules_all.js"> </script>
+<script type="text/javascript">
+cmSetupOther({"cm_UseCookie":false}); 
+cmSetClientID("90378194",true,"data.coremetrics.com","boeing.com"); 
+</script>
+<script type="text/javascript">
+var bcExp;
+var modVP;
+var modExp;
+var modCon;
+ 
+// called when template loads, this function stores a reference to the player and modules.
+// Then event listeners will be added for when the template is ready and when a user 
+// clicks on a video.
+function onTemplateLoaded(experienceID) {
+    bcExp = brightcove.getExperience(experienceID);
+     
+    modVP = bcExp.getModule(APIModules.VIDEO_PLAYER);
+	modCon = bcExp.getModule(APIModules.CONTENT);
+	modExp = bcExp.getModule(APIModules.EXPERIENCE);
+  
+    modVP.addEventListener(BCMediaEvent.BEGIN, onMediaBegin);
+	modVP.addEventListener(BCMediaEvent.PLAY, onMediaPlay);
+	modVP.addEventListener(BCMediaEvent.STOP, onMediaStop);
+	modVP.addEventListener(BCMediaEvent.CHANGE, onMediaChange);
+	modVP.addEventListener(BCMediaEvent.COMPLETE, onMediaComplete);
+
+}
+
+function onMediaBegin(evt) {
+	vidPosition = 0;
+
+    currentVideo = modVP.getCurrentVideo();
+	vidID = currentVideo.id;
+    mediaDTO = modCon.getMedia(currentVideo.id);
+	vidLength = Math.round(mediaDTO.length/1000);
+	vidName = mediaDTO.displayName;
+	vidPlaylist = mediaDTO.lineupId;	
+	if (vidPlaylist !=0) {
+		MediaCollectionDTO = modCon.getMediaCollection(vidPlaylist);
+		vidPlaylistName = MediaCollectionDTO.displayName;
+	}
+	else
+		vidPlaylistName = 'NO PLAYLIST';
+	vidPlayerName = modExp.getPlayerName();
+	experienceId = modExp.getExperienceID(); //playerId
+	referrerURL = window.location.href;
+
+	vidName = vidName.substr(0, 50);
+
+	vidAction = "0";
+		
+		attributes =  ""
+					+ vidID
+					+ "-_-" + experienceId
+					+ "-_-" + vidPlayerName
+					+ "-_-" + vidPlaylist 
+					+ "-_-" + vidPlaylistName
+					+ "-_-" + referrerURL
+					+ "-_-"
+					+ "-_-"   
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" + vidAction  
+					+ "-_-" + vidPosition
+					+ "-_-" + vidLength 
+					
+					;
+	
+	cmCreateElementTag(vidName,"BOEING VIDEO",attributes);
+
+}
+
+function onMediaPlay(evt) {
+	vidPosition = Math.round(modVP.getVideoPosition());
+
+    currentVideo = modVP.getCurrentVideo();
+	vidID = currentVideo.id;
+    mediaDTO = modCon.getMedia(currentVideo.id);
+	vidLength = Math.round(mediaDTO.length/1000);
+	vidName = mediaDTO.displayName;
+	vidPlaylist = mediaDTO.lineupId;	
+	if (vidPlaylist !=0) {
+		MediaCollectionDTO = modCon.getMediaCollection(vidPlaylist);
+		vidPlaylistName = MediaCollectionDTO.displayName;
+	}
+	else
+		vidPlaylistName = 'NO PLAYLIST';
+	vidPlayerName = modExp.getPlayerName();
+	experienceId = modExp.getExperienceID(); //playerId
+	referrerURL = window.location.href;
+
+	vidName = vidName.substr(0, 50);
+
+	vidAction = "2";
+
+	attributes =  ""
+					+ vidID
+					+ "-_-" + experienceId
+					+ "-_-" + vidPlayerName
+					+ "-_-" + vidPlaylist 
+					+ "-_-" + vidPlaylistName
+					+ "-_-" + referrerURL
+					+ "-_-"
+					+ "-_-"   
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" + vidAction  
+					+ "-_-" + vidPosition
+					+ "-_-" + vidLength 
+					
+					;
+	
+	cmCreateElementTag(vidName,"BOEING VIDEO",attributes);
+}
+
+function onMediaStop(evt) {
+	vidPosition = Math.round(modVP.getVideoPosition());
+
+    currentVideo = modVP.getCurrentVideo();
+	vidID = currentVideo.id;
+    mediaDTO = modCon.getMedia(currentVideo.id);
+	vidLength = Math.round(mediaDTO.length/1000);
+	vidName = mediaDTO.displayName;
+	vidPlaylist = mediaDTO.lineupId;	
+	if (vidPlaylist !=0) {
+		MediaCollectionDTO = modCon.getMediaCollection(vidPlaylist);
+		vidPlaylistName = MediaCollectionDTO.displayName;
+	}
+	else
+		vidPlaylistName = 'NO PLAYLIST';
+	vidPlayerName = modExp.getPlayerName();
+	experienceId = modExp.getExperienceID(); //playerId
+	referrerURL = window.location.href;
+
+	vidName = vidName.substr(0, 50);
+
+	vidAction = "1";
+
+		attributes =  ""
+					+ vidID
+					+ "-_-" + experienceId
+					+ "-_-" + vidPlayerName
+					+ "-_-" + vidPlaylist 
+					+ "-_-" + vidPlaylistName
+					+ "-_-" + referrerURL
+					+ "-_-"
+					+ "-_-"   
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" + vidAction  
+					+ "-_-" + vidPosition
+					+ "-_-" + vidLength 
+					
+					;
+	
+	cmCreateElementTag(vidName,"BOEING VIDEO",attributes);
+
+}
+
+
+
+function onMediaChange(evt) {
+}
+
+function onMediaComplete(evt) {
+
+    currentVideo = modVP.getCurrentVideo();
+	vidID = currentVideo.id;
+    mediaDTO = modCon.getMedia(currentVideo.id);
+	vidLength = Math.round(mediaDTO.length/1000);
+	vidName = mediaDTO.displayName;
+	vidPlaylist = mediaDTO.lineupId;	
+	if (vidPlaylist !=0) {
+		MediaCollectionDTO = modCon.getMediaCollection(vidPlaylist);
+		vidPlaylistName = MediaCollectionDTO.displayName;
+	}
+	else
+		vidPlaylistName = 'NO PLAYLIST';
+	vidPlayerName = modExp.getPlayerName();
+	experienceId = modExp.getExperienceID(); //playerId
+	referrerURL = window.location.href;
+
+	vidName = vidName.substr(0, 50);
+
+	vidAction = "3";
+
+		attributes =  ""
+					+ vidID
+					+ "-_-" + experienceId
+					+ "-_-" + vidPlayerName
+					+ "-_-" + vidPlaylist 
+					+ "-_-" + vidPlaylistName
+					+ "-_-" + referrerURL
+					+ "-_-"
+					+ "-_-"   
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" 
+					+ "-_-" + vidAction  
+					+ "-_-" + vidLength
+					+ "-_-" + vidLength 
+					
+					;
+	
+	cmCreateElementTag(vidName,"BOEING VIDEO",attributes);
+
+}
+</script> 
+
+   </head>
+   <body><!--[if gte IE 8]>
+
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+<![endif]-->
+ <!-- Favorites icon -->
+        <link rel="shortcut icon" href="http://www.boeing.com/favicon.ico" />
+
+<script language="JavaScript" src="http://www.boeing.com/js/jquery.min.js" type="text/javascript"></script>
+
+<script language="JavaScript" src="http://www.boeing.com/js/nudge.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript" src="http://www.boeing.com/js/custom.js"></script>
+
+<script language="JavaScript" type="text/javascript" src="http://www.boeing.com/js/header_stock.js"></script>
+
+<script type="text/javascript" src="http://www.boeing.com/js/cufon-yui.js"></script>
+
+<script type="text/javascript" src="http://www.boeing.com/js/Helvetica_300-Helvetica_700-Helvetica_italic_300-Helvetica_italic_700.font.js"></script>
+<script type="text/javascript">Cufon.replace('h1, h2, #pageName, .Slide');</script>
+
+<script src="http://www.boeing.com/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+<link href="http://www.boeing.com/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!-- begin Boeing page code -->
+
+<script language="JavaScript" type="text/javascript">
+
+
+
+
+
+
+
+$(document).ready(function(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	$("#login").click(function(){
+
+
+
+
+
+
+
+	 slidelogin(); });
+
+
+
+
+
+
+
+	 
+
+
+
+
+
+
+
+	$("#logout").click(function(){
+
+
+
+
+
+
+
+	 slidelogin(); });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function slidelogin()
+
+
+
+
+
+
+
+{
+
+
+
+
+
+
+
+if ($.browser.msie) {
+
+
+
+
+
+
+
+$('#content2').slideToggle("slow");
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		$("#panel").slideToggle("fast");
+
+
+
+
+
+
+
+		$(this).toggleClass("active"); return false;
+
+
+
+
+
+
+
+} });
+
+
+
+
+
+
+
+</script>
+
+<div id="emer_number">
+
+  <p><a href="http://www.boeing.com/empinfo/emergency.html">Boeing Employee Information
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    Hotline at 1-800-899-6431</a></p>
+
+</div>
+
+<div class="skipLinks">skip to: <a href="#content" tabindex="1">page content</a> | <a href="#footer" tabindex="4">footer(site
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  information)</a> </div>
+
+<div id="print_logo"> <img src="http://www.boeing.com/images/print_logo.jpg" alt="Boeing logo" width="186" height="81" border="0" /> </div>
+
+<h3 class="hide"> This site will look much better in a browser that supports <a href="http://www.boeing.com/utilities/upgrade/"  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title="Download a browser that complies with Web standards.">web standards</a>,
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  but it is accessible to any browser or Internet device. </h3>
+
+<div id="masthead">
+
+  <!-- Modified EAG 11.05.2009: code above in support of logon pulldowm menu-->
+
+  <!---EAG code below to support logon pull down menu  --->
+
+  <div id="panel" >
+
+    <div id="content2"> <a name="content2"> </a> Secure Logon<br />
+
+      <ul>
+
+        <li> <a href="https://accessto.boeing.com">Portal Logon: AccessTo Gateway</a> </li>
+
+        <li> <a href="https://bpn.boeing.com/">Portal Logon: Boeing Partners Network</a> </li>
+
+        <li> <a href="https://www.myboeingfleet.com/">Portal Logon: MyBoeingFleet</a> </li>
+
+        <li> <a href="https://suppliers.boeing.com/">Portal Logon: Supplier Portal</a> </li>
+
+        <li> <a href="http://www.boeing.com/special/bpn/start.htm">Help - Secure Logon</a> </li>
+
+        <li> <a href="http://www.boeing.com/companyoffices/aboutus/ethics/hotline.html">Boeing Ethics Line</a> </li>
+
+        <li> <a href="http://www.boeing.com/express">MyBoeing Express/TotalAccess</a> </li>
+
+      </ul>
+
+      <div class="logout" id="logout">CLOSE</div>
+
+      <div class="clear"> </div>
+
+    </div>
+
+    <!---  <p class="slide"><a href="#" class="btn-slide">LOGIN</a></p> --->
+
+  </div>
+
+  <!--- EAG code above to support logon pull down menu --->
+
+  <div id="boeing_brand"><a href="http://www.boeing.com/" title="Welcome to The Boeing Company website. Click this logo to return to the home page."><img src="/images/spacer.gif" width="320" height="58" border="0" /></a></div>
+
+  <div id="utility"><a href="http://www.boeing.com/merchandise.html">Merchandise</a> | 
+
+  <a href="http://www.boeing.com/corp_gov/">Corporate Governance</a> | 
+
+  <a href="http://www.boeing.com/companyoffices/empinfo/">Employee/Retiree</a>/<a href="http://www.boeing.com/empinfo/emergency.html">Emergency Information</a> | 
+
+  <a href="http://www.boeing.com/companyoffices/aboutus/ethics/">Ethics</a> | 
+
+  <a href="http://www.boeingsuppliers.com/">Suppliers</a></div>
+
+  <div id="login"><a href="#">Login</a></div>
+
+  <div id="searchspacer">
+
+    <form action="http://search-www.boeing.com/search" method="get" name="gsearch">
+
+      <input type="text" name="q" size="31" maxlength="50" onFocus="this.value='';" value="Search" class="formTextboxText" />
+
+      <input type="hidden" name="site" value="www_boeing" />
+
+      <input type="hidden" name="client" value="www_boeing" />
+
+      <input type="hidden" name="proxystylesheet" value="www_boeing" />
+
+      <input type="hidden" name="output" value="xml_no_dtd" />
+
+      <input class="searchbutton" type="image" name="btnG" src="http://www.boeing.com/images/searchbutton_sm.gif" alt="Search" height="17" width="17" align="top" border="0" title="Search" />
+
+    </form>
+
+  </div>
+
+  <div id="stockinfo"><span class="stockinfo"><a href="http://investor.shareholder.com/ba/stock.cfm"> <span id="stock_quote">&nbsp;</span></a></span></div>
+
+  <div id="globalNav">
+
+    <div id="globalLink">
+
+      <ul id="MenuBar1" class="glink MenuBarHorizontal">
+
+        <li><a class="glink_b_space MenuBarItemSubmenu" href="http://www.boeing.com/companyoffices/aboutus/">About Us</a>
+
+          <ul>
+
+            <li><a href="http://www.boeing.com/companyoffices/aboutus/brief.html">General Information</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/aboutus/execprofiles/index.html">Executive
+
+              Biographies</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/aboutus/advertising/index.html">Advertising
+
+              and Branding</a></li>
+
+            <li><a href="http://www.boeing.com/aboutus/international/index.html">Boeing International</a></li>
+
+            <li><a href="http://www.boeing.com/aboutus/culture/index.html">Culture</a></li>
+
+            <li><a href="http://www.boeing.com/aboutus/diversity/index.html">Diversity</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/aboutus/community/education.html">Education</a></li>
+
+            <li><a href="http://www.boeing.com/aboutus/environment/index.htm">Environment</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/aboutus/community/index.html">Corporate Citizenship</a></li>
+
+            <li><a href="http://www.boeing.com/aboutus/govt_ops/index.html">Government Operations</a></li>
+
+            <li><a href="http://www.boeing.com/aboutus/safety_health.html">Safety and Health at Work</a></li>
+
+            <li><a href="http://www.boeing.com/history/index.html">History</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/aboutus/readinglist.html">Research Assistance</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/aboutus/tours/index.html">Tours</a></li>
+
+          </ul>
+
+        </li>
+
+        <li><a class="glink_b_space MenuBarItemSubmenu" href="http://www.boeing.com/product_list.html">Products</a>
+
+          <ul>
+
+            <li><a href="http://www.boeing.com/product_list.html">All Products</a></li>
+
+            <li><a href="http://www.boeing.com/commercial/products.html">Commercial Airplanes</a></li>
+
+            <li><a href="http://www.boeing.com/bds/a_to_z.html">Defense, Space &amp; Security</a></li>
+
+          </ul>
+
+        </li>
+
+        <li><a class="glink_b_space MenuBarItemSubmenu" href="http://www.boeing.com/biz_unit.html">Businesses/Services</a>
+
+          <ul>
+
+            <li><a href="http://www.boeing.com/commercial/" class="MenuBarItemSubmenu">Commercial Airplanes</a>
+
+              <ul>
+
+                <li><a href="http://www.boeing.com/commercial/overview/index.html">About Commercial Airplanes</a></li>
+
+                <li><a href="http://www.boeing.com/commercial/products.html">About Our Products</a></li>
+
+                <li><a href="http://www.boeing.com/commercial/aviationservices/index.html">The Boeing Edge</a></li>
+
+                <li><a href="http://www.boeing.com/commercial/other_services.html">Other Services</a></li>
+
+                <li><a href="http://www.boeing.com/commercial/industry_info.html">About Our Market</a></li>
+
+                <li><a href="http://www.boeing.com/commercial/news.html">News &amp; Images</a></li>
+
+              </ul>
+
+            </li>
+
+            <li><a href="http://www.boeing.com/bds/" class="MenuBarItemSubmenu">Defense, Space &amp; Security</a>
+
+              <ul>
+
+                <li><a href="http://www.boeing.com/bds/overview.html">About Us</a></li>
+
+                <li><a href="http://www.boeing.com/bds/a_to_z.html">BDS Products A - Z</a></li>
+
+                <li><a href="http://www.boeing.com/bds/capabilities.html">BDS Capabilities</a></li>
+
+                <li><a href="http://www.boeing.com/bds/news/index.html">BDS News</a></li>
+
+                <li><a href="http://www.boeing.com/bds/gallery/index.html">BDS Image Gallery</a></li>
+
+                <li><a href="http://www.boeing.com/bds/military_aircraft/index.html">Boeing Military Aircraft</a></li>
+
+                <li><a href="http://www.boeing.com/bds/support/index.html">Global Services &amp; Support</a></li>
+
+                <li><a href="http://www.boeing.com/bds/network_space/index.html">Network and Space Systems</a></li>
+
+                <li><a href="http://www.boeing.com/bds/phantom_works/index.html">Phantom Works</a></li>
+
+              </ul>
+
+            </li>
+
+            <li><a href="http://www.boeing.com/bcc/">Boeing Capital Corporation</a></li>
+
+            <li><a href="http://www.boeing.com/ssg/">Shared Services Group</a></li>
+
+          </ul>
+
+        </li>
+
+        <li><a class="glink_b_space MenuBarItemSubmenu" href="http://boeing.mediaroom.com/">Media</a>
+
+          <ul>
+
+            <li><a href="http://boeing.mediaroom.com/">Releases/Statements</a></li>
+
+            <li><a href="http://boeing.mediaroom.com/index.php?s=58">Email/RSS</a> </li>
+
+            <li><a href="http://www.boeing.com/news/feature/index.html">News
+
+              Features</a></li>
+
+              <li><a href="/videos/video.html">Videos</a></li>
+
+            <li><a href="http://boeing.mediaroom.com/index.php?s=13&amp;depth=2">Image
+
+              Gallery</a></li>
+
+            <li><a href="http://www.boeing.com/news/speeches/index.html">Speeches</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/aboutus/execprofiles/index.html">Executive
+
+              Biographies</a></li>
+
+            <li><a href="http://www.boeing.com/news/frontiers/index.html">Frontiers
+
+              Online</a></li>
+
+          </ul>
+
+        </li>
+
+        <li><a class="glink_b_space MenuBarItemSubmenu" href="http://www.boeing.com/companyoffices/financial/">Investors</a>
+
+          <ul>
+
+            <li><a href="http://investor.shareholder.com/ba/stock.cfm">Stock
+
+              Information</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/financial/share.html">Shareholder
+
+              Services</a></li>
+
+            <li><a href="http://phx.corporate-ir.net/phoenix.zhtml?c=85482&amp;p=irol-calendar">Event
+
+              Calendar</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/financial/quarterly.htm">Financial
+
+              Information</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/financial/news/index.html">Financial
+
+              News</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/financial/freq_info.html">Frequently
+
+              Requested Info</a> </li>
+
+            <li><a href="http://www.boeing.com/companyoffices/financial/">Corporate
+
+              Governance</a></li>
+
+            <li><a href="http://www.boeing.com/companyoffices/financial/execprofiles.html">Executive
+
+              Biographies</a></li>
+
+            <li><a href="http://phx.corporate-ir.net/phoenix.zhtml?c=85482&amp;p=irol-infoReq">Contact
+
+              Us</a></li>
+
+          </ul>
+
+        </li>
+
+        <li><a href="http://www.boeing.com/careers/" class="glink_b_space MenuBarItemSubmenu">Careers</a>
+
+          <ul>
+
+            <!--<li><a href="https://jobs.boeing.com/JobSeeker/JobSearch">Job Search &amp; Apply</a></li>-->
+
+            <li><a href="/careers/jobsEvents.html">Jobs  &amp; Events</a></li>
+
+            <li><a href="/careers/whatWeDo/">What We Do</a></li>
+
+            <li><a href="/careers/culture/">Culture &amp; Values</a></li>
+
+            <li><a href="/careers/locations/">Locations</a></li>
+
+            <li><a href="/careers/benefits/">Benefits</a></li>
+
+            <li><a href="/careers/collegecareers/">Interns &amp; Graduates</a> </li>
+
+          </ul>
+
+        </li>
+
+        <li><a class="glink_b_space MenuBarItemSubmenu" href="http://www.boeing.com/worldwide.html">Global</a>
+
+          <ul>
+
+            <li><a href="http://www.boeing.com.au/">Australia</a></li>
+
+            <li lang="zh"><a href="http://www.boeingchina.com/">&#20013;&#22283;</a></li>
+
+            <li><a href="http://www.boeing.ca/">Canada</a></li>
+
+            <li><a href="http://www.boeing.fr/">France</a></li>
+
+            <li lang="de"><a href="http://www.boeing.de/">Deutschland</a></li>
+
+            <li><a href="http://www.boeing.co.in/">India</a></li>
+
+            <li lang="il"><a href="http://www.boeing.co.il/">&#1506;&#1489;&#1512;&#1497;&#1514;</a></li>
+
+            <li lang="it"><a href="http://www.boeing.com/global/italy/">Italia</a></li>
+
+            <li lang="ja"><a href="http://www.boeing.jp/">&#26085;&#26412;</a></li>
+
+            <li lang="ko"><a href="http://www.boeing.co.kr/">&#54620;&#44397;</a></li>
+
+            <li lang="ar"><a href="http://www.boeing-me.com">&#1576;&#1608;&#1610;&#1606;&#1594; &#1601;&#1610; &#1575;&#1604;&#1588;&#1585;&#1602; &#1575;&#1604;&#1571;&#1608;&#1587;&#1591; </a></li>
+
+            <li lang="ru"><a href="http://www.boeing.ru/">&#1056;&#1086;&#1089;&#1089;&#1080;&#1103;</a></li>
+
+            <li><a href="http://www.boeing.es/">Espa&ntilde;a</a></li>
+
+            <li><a href="http://www.boeing.co.uk">UK</a></li>
+
+          </ul>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <!--end globalLinks-->
+
+  </div>
+
+</div>
+
+<!-- end globalNav -->
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"/SpryAssets/SpryMenuBarDownHover.gif", imgRight:"/SpryAssets/SpryMenuBarRightHover.gif"});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+      <div id="pagecell1">
+         <div id="breadCrumb">
+            <a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns="" href="/" class="breadcrumb">Boeing Home</a> /
+		<a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns="" href="/commercial/index.html">Commercial Airplanes</a>				
+				/
+				<a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns="" href="/commercial/products.html">About Our Products</a>				
+				/
+				<a xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns="" href="/commercial/747family/index.html">747</a>				
+				/
+				747 Family</div>
+         <div xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns="" id="pageNav"><form id="lsearch" action="http://search-www.boeing.com/search" method="get">
+
+<input type="text" name="q" size="21" maxlength="50" onFocus="this.value='';" value="Search 747" class="formTextboxText" />
+
+<input type="hidden" name="sitesearch" value="www.boeing.com/commercial/747family"/> 
+
+<input type="hidden" name="site" value="www_boeing"/>
+
+<input type="hidden" name="client" value="www_boeing"/>
+
+<input type="hidden" name="proxystylesheet" value="www_boeing"/>
+
+<input type="hidden" name="output" value="xml_no_dtd"/>
+
+<input class="lsearchbutton" type="image" name="btnG" src="http://www.boeing.com/images/searchbutton_sm.gif" alt="Search" height="17" width="17" border="0" title="Search" /></form>
+            <div class="locNavLinks0_o">
+               <a href="/commercial/index.html">Commercial Airplanes</a>
+            </div>
+            <div class="locNavLinks1_c">
+               <a href="/commercial/overview/index.html">About Commercial Airplanes</a>
+            </div>
+            <div class="locNavLinks1_o">
+               <a href="/commercial/products.html">About Our Products</a>
+            </div>
+            <div class="locNavLinks2_c">
+               <a href="/commercial/737family/index.html">737</a>
+            </div>
+            <div class="locNavLinks2_o">
+               <a href="/commercial/747family/index.html">747</a>
+            </div>
+            <div class="locNavLinks3_o_s">747 Family</div>
+            <div class="locNavLinks4">
+               <a href="/commercial/747family/747-8_background.html">747-8 Family Background</a>
+            </div>
+            <div class="locNavLinks4">
+               <a href="/commercial/747family/747-8_facts.html">747-8 Facts</a>
+            </div>
+            <div class="locNavLinks4_c">
+               <a href="/commercial/747family/dreamlifter_fact.html">747 Dreamlifter</a>
+            </div>
+            <div class="locNavLinks4_c">
+               <a href="/commercial/747family/back/index.html">747-400 Family</a>
+            </div>
+            <div class="locNavLinks4_c">
+               <a href="/commercial/747family/lr_back/index.html">747-400ER Family</a>
+            </div>
+            <div class="locNavLinks4_c">
+               <a href="/commercial/747family/freighter/index.html">747-400 Freighter</a>
+            </div>
+            <div class="locNavLinks4">
+               <a href="/commercial/747family/pf/pf_facts.html">747 Facts</a>
+            </div>
+            <div class="locNavLinks4">
+               <a href="/commercial/747family/pf/pf_milestones.html">747 Program Milestones</a>
+            </div>
+            <div class="locNavLinks4">
+               <a href="/commercial/747family/pf/pf_classic_back.html">747 Classics</a>
+            </div>
+            <div class="locNavLinks3_c">
+               <a href="/commercial/747family/specs.html">Technical Information</a>
+            </div>
+            <div class="locNavLinks2_c">
+               <a href="/commercial/767family/index.html">767</a>
+            </div>
+            <div class="locNavLinks2_c">
+               <a href="/commercial/777family/index.html">777</a>
+            </div>
+            <div class="locNavLinks2_c">
+               <a href="/commercial/787family/index.html">787 Dreamliner</a>
+            </div>
+            <div class="locNavLinks2">
+               <a href="/commercial/bbj/index.html">Boeing Business Jets</a>
+            </div>
+            <div class="locNavLinks2">
+               <a href="/commercial/freighters/index.html">Boeing Freighters</a>
+            </div>
+            <div class="locNavLinks2_c">
+               <a href="/commercial/out_of_production.html">Out-of-Production Models</a>
+            </div>
+            <div class="locNavLinks2">
+               <a href="http://active.boeing.com/commercial/am/index.cfm">Available Aircraft</a>
+            </div>
+            <div class="locNavLinks2">
+               <a href="http://active.boeing.com/commercial/orders/index.cfm">Orders and Deliveries</a>
+            </div>
+            <div class="locNavLinks1_c">
+               <a href="/commercial/aviationservices/index.html">The Boeing Edge</a>
+            </div>
+            <div class="locNavLinks1_c">
+               <a href="/commercial/other_services.html">Other Services</a>
+            </div>
+            <div class="locNavLinks1_c">
+               <a href="/commercial/industry_info.html">About Our Market</a>
+            </div>
+            <div class="locNavLinks1_c">
+               <a href="/commercial/news.html">News &amp; Images</a>
+            </div>
+         </div>
+             <div xmlns="" id="content">
+            <a name="content"> </a>
+            <div id="banner" class="bca_747">
+               <h1>
+                  <span class="hide_b">747 Family</span>
+               </h1>
+            </div>
+            <div id="pageName">The Boeing 747 Family -- The Right Choice for the Large Airplane Market</div>
+            <h1>About the 747 Family</h1>
+            <p>
+               <img src="/commercial/747family/images/400_2.jpg" width="250" height="165" class="img_alt"/>Instantly recognized by passengers around the world, the Boeing 747 is in a class by itself. The 747-8 continues the 747 family legacy by integrating advanced technology into one of the world's most modern and fuel-efficient airplanes.</p>
+            <p>The Boeing 747-8 Intercontinental and 747-8 Freighter are the new high-capacity 747s that offer airlines the lowest operating costs and best economics of any large passenger or freighter airplane. <a href="/commercial/747family/747-8_background.html">More . . .</a>
+            </p>
+            <p>The 747-400 incorporates major aerodynamic improvements over earlier 747 models, including the addition of winglets to reduce drag, new avionics, a new flight deck and the latest in-flight entertainment systems. And, the 747 continues to be the world's fastest subsonic jetliner, cruising at Mach .855 -- or 85.5 percent of the speed of sound. Along with the popular Boeing 777, the 747 is a key element of the Boeing long-range market strategy. <a href="/commercial/747family/back/index.html">More . . .</a>
+            </p>
+            <p>With the lowest operating cost per ton-mile in the industry, the new-technology Boeing 747-400 Freighter is the all-cargo transport member of the 747-400 family. It can carry twice as much cargo, twice as far, as the competitor's leading freighter. Along with earlier versions, 747 Freighters -- about 225 in all -- carry half of all the world's freighter air cargo. 
+<a href="/commercial/747family/freighter/index.html">More . . .</a>
+            </p>
+            <p>Boeing has taken another huge step in the continuing evolution of the world's most recognized jetliner, the 747. The 747-400ER Family -- available in both passenger and freighter versions -- provides the same size as current 747-400s, and offers an even more unbeatable combination of payload, range and speed. <a href="/commercial/747family/lr_back/index.html">More . . .</a>
+            </p>
+            <p>Did you know the 747-400 wing measures 5,600 square feet (524.9 sq m), an area large enough to hold 45 medium-sized automobiles? More <a href="/commercial/747family/pf/pf_facts.html">facts . . .</a>
+            </p>
+            <p>Also browse the <a href="/commercial/747family/pf/pf_milestones.html">747 chronology</a>, take a quick look at the 747 Program important dates, read about the <a href="/commercial/747family/pf/pf_classic_back.html">early versions</a> of the 747.</p>
+            <table>
+               <tr valign="bottom" class="bgltblue ">
+                                <th class="brand " align="center">Model</th>
+                                <th class="brand " align="center">First Order</th>
+                                <th class="brand " align="center">Rollout</th>
+                                <th class="brand " align="center">First Flight</th>
+                                <th class="brand " align="center">Certification</th>
+                                <th class="brand " align="center">First Delivery</th>
+                                <th class="brand " align="center">In Service</th>
+                                <th class="brand " align="center">First Airline in service</th>
+                                <th class="brand " align="center">Last Delivery</th>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-100/SR/B</td>
+                                <td class="brand " align="center">04/13/66</td>
+                                <td class="brand " align="center">09/30/68</td>
+                                <td class="brand " align="center">02/09/69</td>
+                                <td class="brand " align="center">12/30/69</td>
+                                <td class="brand " align="center">12/13/69</td>
+                                <td class="brand " align="center">01/21/70</td>
+                                <td class="brand " align="center">Pan Am</td>
+                                <td class="brand " align="center">9/86<br/>
+        Japan Air Lines</td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-200</td>
+                                <td class="brand " align="center">12/19/68</td>
+                                <td class="brand " align="center">09/10/70</td>
+                                <td class="brand " align="center">10/11/70</td>
+                                <td class="brand " align="center">12/23/70</td>
+                                <td class="brand " align="center">01/15/71</td>
+                                <td class="brand " align="center">06/71</td>
+                                <td class="brand " align="center">KLM</td>
+                                <td class="brand " align="center">12/90<br/>
+        USAF </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-200F</td>
+                                <td class="brand " align="center">03/03/69</td>
+                                <td class="brand " align="center">11/23/71</td>
+                                <td class="brand " align="center">11/30/71</td>
+                                <td class="brand " align="center">03/07/72</td>
+                                <td class="brand " align="center">03/10/72</td>
+                                <td class="brand " align="center">04/19/72</td>
+                                <td class="brand " align="center">Lufthansa</td>
+                                <td class="brand " align="center"> 11/91<br/>
+        Nippon Cargo</td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-200C</td>
+                                <td class="brand " align="center">03/27/72</td>
+                                <td class="brand " align="center">02/28/73</td>
+                                <td class="brand " align="center">03/23/73</td>
+                                <td class="brand " align="center">04/24/73</td>
+                                <td class="brand " align="center">04/30/73</td>
+                                <td class="brand " align="center">05/73</td>
+                                <td class="brand " align="center">World Airways</td>
+                                <td class="brand " align="center">9/88<br/>
+        Martinair </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747SP</td>
+                                <td class="brand " align="center">09/10/73</td>
+                                <td class="brand " align="center">05/19/75</td>
+                                <td class="brand " align="center">07/04/75</td>
+                                <td class="brand " align="center">02/04/76</td>
+                                <td class="brand " align="center">03/05/76</td>
+                                <td class="brand " align="center">04/25/76</td>
+                                <td class="brand " align="center">Pan Am</td>
+                                <td class="brand " align="center">12/09/89<br/>
+        Abu Dhabi Govt. (UAE) </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-200M</td>
+                                <td class="brand " align="center">04/08/74</td>
+                                <td class="brand " align="center">10/30/74</td>
+                                <td class="brand " align="center">11/18/74</td>
+                                <td class="brand " align="center">03/07/75</td>
+                                <td class="brand " align="center">03/07/75</td>
+                                <td class="brand " align="center">03/07/75</td>
+                                <td class="brand " align="center">Air Canada</td>
+                                <td class="brand " align="center"> 12/09/89 -<br/>
+        Abu Dhabi Govt. (UAE)</td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-300M</td>
+                                <td class="brand " align="center">06/11/80</td>
+                                <td class="brand " align="center">01/14/83</td>
+                                <td class="brand " align="center">02/14/83</td>
+                                <td class="brand " align="center">03/05/83</td>
+                                <td class="brand " align="center">03/05/83</td>
+                                <td class="brand " align="center">03/83</td>
+                                <td class="brand " align="center">Swissair</td>
+                                <td class="brand " align="center">9/90<br/>
+        Sabena</td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center"> 747-300/SR</td>
+                                <td class="brand " align="center">06/11/80</td>
+                                <td class="brand " align="center">09/21/82</td>
+                                <td class="brand " align="center">10/05/82</td>
+                                <td class="brand " align="center">03/07/83</td>
+                                <td class="brand " align="center">03/01/83<br/>
+        (to UTA)</td>
+                                <td class="brand " align="center">03/28/83</td>
+                                <td class="brand " align="center">Swissair</td>
+                                <td class="brand " align="center">10/88<br/>
+        Japan Asia</td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-400</td>
+                                <td class="brand " align="center">10/22/85</td>
+                                <td class="brand " align="center">01/26/88</td>
+                                <td class="brand " align="center">04/29/88</td>
+                                <td class="brand " align="center">01/10/89</td>
+                                <td class="brand " align="center">01/26/89</td>
+                                <td class="brand " align="center">02/09/89</td>
+                                <td class="brand " align="center">Northwest</td>
+                                <td class="brand " align="center"> </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-400M</td>
+                                <td class="brand " align="center">04/09/86</td>
+                                <td class="brand " align="center">03/23/89</td>
+                                <td class="brand " align="center">06/30/89</td>
+                                <td class="brand " align="center">01/10/89</td>
+                                <td class="brand " align="center">09/01/89</td>
+                                <td class="brand " align="center">09/89</td>
+                                <td class="brand " align="center">KLM</td>
+                                <td class="brand " align="center">04/10/02<br/>
+        KLM  </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-400D</td>
+                                <td class="brand " align="center">12/18/88</td>
+                                <td class="brand " align="center">02/18/91</td>
+                                <td class="brand " align="center">03/18/91</td>
+                                <td class="brand " align="center">10/10/91</td>
+                                <td class="brand " align="center">10/10/91</td>
+                                <td class="brand " align="center">10/91</td>
+                                <td class="brand " align="center">Japan Air Lines</td>
+                                <td class="brand " align="center">12/95<br/>
+        All Nippon Airways </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-400F</td>
+                                <td class="brand " align="center">09/13/89</td>
+                                <td class="brand " align="center">03/08/93</td>
+                                <td class="brand " align="center">05/04/93</td>
+                                <td class="brand " align="center">10/22/93</td>
+                                <td class="brand " align="center">11/17/93</td>
+                                <td class="brand " align="center">11/17/93</td>
+                                <td class="brand " align="center">Cargolux</td>
+                                <td class="brand " align="center">5/7/09<br/>
+Nippon Cargo Airlines</td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center">747-400ER</td>
+                                <td class="brand " align="center">12/19/00</td>
+                                <td class="brand " align="center">06/17/02</td>
+                                <td class="brand " align="center"> 07/31/02</td>
+                                <td class="brand " align="center">10/29/02</td>
+                                <td class="brand " align="center">10/31/02</td>
+                                <td class="brand " align="center">11/07/02</td>
+                                <td class="brand " align="center">Qantas </td>
+                                <td class="brand " align="center"> 7/30/03<br/>
+Qantas
+ </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center"> 747-400ERF</td>
+                                <td class="brand " align="center">04/17/01</td>
+                                <td class="brand " align="center">09/05/02 </td>
+                                <td class="brand " align="center"> 09/02</td>
+                                <td class="brand " align="center"> 10/16/02</td>
+                                <td class="brand " align="center">10/17/02</td>
+                                <td class="brand " align="center">10/02</td>
+                                <td class="brand " align="center">Air France </td>
+                                <td class="brand " align="center">11/10/09<br/>
+LoadAir Cargo 
+ </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center"> 747-8F</td>
+                                <td class="brand " align="center">11/14/05</td>
+                                <td class="brand " align="center">11/12/09 </td>
+                                <td class="brand " align="center"> 2/8/10</td>
+                                <td class="brand " align="center">08/19/11</td>
+                                <td class="brand " align="center">10/12/11</td>
+                                <td class="brand " align="center">10/12/11</td>
+                                <td class="brand " align="center">Cargolux </td>
+                                <td class="brand " align="center"> </td>
+                           </tr>
+               <tr>
+                                <td class="brand " align="center"> 747-8</td>
+                                <td class="brand " align="center">12/6/06</td>
+                                <td class="brand " align="center">01/28/11</td>
+                                <td class="brand " align="center">03/20/11</td>
+                                <td class="brand " align="center"> </td>
+                                <td class="brand " align="center"> </td>
+                                <td class="brand " align="center"> </td>
+                                <td class="brand " align="center">Lufthansa </td>
+                                <td class="brand " align="center"> </td>
+                           </tr>
+            </table>
+            <div class="clear"> </div>
+         </div>
+  <div id="footer">
+  <div class="clear"></div>
+  <!-- end mod_4 -->
+  <!--Quick Links-->
+  <div class="bottom_links">
+    <p> <!--<a href="http://www.boeing.com/bcc/">Boeing Capital Corporation</a> |--> <a href="/aboutus/diversity/">Diversity</a> | <a href="/companyoffices/aboutus/community/">Global Corporate Citizenship</a> | <a href="http://www.boeing.com/aboutus/environment/">Environment</a> | <a href="/aboutus/govt_ops/">Government Operations</a> | <a href="/videos/video.html">Videos</a> | <a href="/multimedia/index.html">Images</a></p>
+  </div>
+  <!--end Quick Links-->
+  <div class="clear"></div>
+  <!--Footer-->
+  <div class="footer_home">
+    <p> Copyright &copy; 1995 - 
+<script type="text/javascript">
+var d = new Date()
+document.write(d.getFullYear())
+</script> 
+Boeing. All Rights Reserved. <a href="/companyoffices/aboutus/site_terms.html">Site Terms</a> | <a href="/companyoffices/aboutus/privacy.html">Privacy Policy</a> | <a href="/contactus.html">Contact Us</a> | <a href="/faqs.html">FAQ</a> </p>
+  </div>
+<script type="text/javascript"> Cufon.now(); </script>
+  <!-- End Footer-->
+ <div class=" clearfix"></div>
+</div> 
+      </div><script type="text/javascript">
+	 var reporting_segment = document.getElementsByName('reporting_segment')[0].getAttribute('content');
+     cmCreatePageviewTag(null,reporting_segment);
+</script>
+   </body>
+</html>

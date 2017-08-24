@@ -1,0 +1,14 @@
+Il modello è ancora da scalare.
+
+Considerando un fattore di scala di 46m per piastrella (piastrella di 128px) si ottiene che il modello deve essere scalato di un fattore 0,508.
+
+5 quadrati di blender lungo l'asse X equivalgono a circa 108pixel sulla piastrella da 128px.
+
+Dato che il modello è lungo 5 quadrati blender e che la lunghezza totale in metri dell'aereo è 18,33m si ottiene che la scalatura sarà pari a:
+  Lunghezza aereo in px voluta: 128:x=46:19,7 -> x=53,82px
+  Lunghezza aereo con 5quadrati blender (con piastrella 128px): 108px
+  Scalatura=53,82/108=0,508
+
+Per utilizzare il modello nel pakBritain occorre renderlo sufficentemente "dark", per far questo i colori dell'aereo possono essere lasciati bianchi ma occorre cambiare i soli presenti nella scena modificando il loro colore dal bianco al grigio, nello specifico il grigio con tutti i valori RGB a 0,56.
+
+Qualora, dopo la scaltura, si voglia allineare il modello al centro della casella occorre spostare il modello di 2,2 lungo l'asse Z.

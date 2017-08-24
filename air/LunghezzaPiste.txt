@@ -1,0 +1,84 @@
+Conversione:
+Jet:		1kN	->	180kW
+TurboElica	265kW	->	1kN	(vecchia modalità di calcolo **)
+
+Ford trimotor		1600m	4kN	PAX/MAIL		1260SHP=940kW ** spinta da ricalcolare con nuovo metodo = 17kN
+A318-112		1800m	200kN	British			36000kW
+A319-131/132		1650m	214kN	British			38520kW
+A319-111		1900m	196kN	Easy Jet		35280kW
+A320-214		1900m	240kN	Thomson			43200kW
+A320-214		2000m	240kN	AerLingus		43200kW
+A321-231		2050m	294kN	Monarch			52920kW
+ATR_42_320		1000m	12kN	BlueIsland		4200SHP=3132kW ** spinta da ricalcolare con nuovo metodo = 25kN
+ATR_42_300F		1100m	11kN	FedEx Post/Cargo	4000SHP=2980kW ** spinta da ricalcolare con nuovo metodo = 24kN
+ATR_42_500		1150m	14kN	Titan Airways		4800SHP=3580kW ** spinta da ricalcolare con nuovo metodo = 29kN
+ATR_42_500F		1150m	14kN	DHL			4800SHP=3580kW ** spinta da ricalcolare con nuovo metodo = 29kN
+ATR_72_200		1400m	12kN	British			4320SHP=3220kW ** spinta da ricalcolare con nuovo metodo = 25kN
+ATR_72_200		1400m	12kN	FedEx Post/Cargo	4320SHP=3220kW ** spinta da ricalcolare con nuovo metodo = 25kN
+ATR_72_500		1300m	14kN	Aurigny			4950SHP=3690kW ** spinta da ricalcolare con nuovo metodo = 29kN
+ATR_72_500F		1300m	14kN	Farnair			4950SHP=3690kW ** spinta da ricalcolare con nuovo metodo = 29kN
+BAE_146_100		1000m	125kN	DanAir			22500kW
+BAE_146_300		1100m	125kN	Jersey			22500kW
+BAE_146_300		1100m	125kN	TNT			22500kW
+BAC_111_200		1850m	93kN	BUA			16740kW
+BAC_111_500		2000m	112kN	Caledonian		20160kW
+B727_100		2300m	186kN	DanAir			33480kW
+B727_100C		2650m	186kN	DHL/UPS			33480kW
+B727_200		2950m	194kN	British			34920kW
+B727_200Adv		3500m	194kN	TNT			34920kW
+B727_200Adv		3500m	214kN	DHL			38520kW
+B747_100		3800m	774kN	BOAC			139320kW
+B747_200		3800m	864kN	BritishCaledonian	155520kW
+B747_200F		3250m	890kN	SeaBoardWorld		160200kW
+B747_400		3200m	1031kN	British			185580kW
+B747_400F		3200m	1031kN	CargoLux		185580kW
+BAC_Concorde		3100m	558kN	British			100440kW
+B707_120		3100m	240kN	Varie			43200kW
+B707_420		3600m	305kN	BOAC			54900kW
+B707_320C		3600m	320kN	PelicanCargo		57600kW
+Vickers Viscount 757	2250m	30kN	Cambrian		5600SHP=4180kW
+Vickers Viscount 802	2250m	32kN	BEA			6400SHP=4774kW
+Fokker F27 200		1050m	10kN	AirAnglia		1910SHP=1425kW
+Fokker F27 100_300	1755m	10kN	BritishMidlandAir	1600SHP=1193kW
+Fokker F27 100_300	1755m	10kN	RoyalMail		1600SHP=1193kW
+Zeppelin LZ127 Graf	0m	52kN	Zeppelin		1765kW
+Zeppelin LZ10 Zeppelin	0m	11kN	Zeppelin		292kW
+Zeppelin LZ6 Zeppelin	0m	7kN	Zeppelin		270HP=>243SHP=182kW
+HandleyPage O400	600m(stima) 	13kN	HandleyPage	2*360HP=>648SHP=483kW
+HandleyPage W8b		600m(stima) 	13kN	HandleyPage	2*360HP=>648SHP=483kW
+Douglas DC2		600m(stima)	11kN	Douglas		2*710HP=>1278SHP=946kW
+Douglas DC2 Mail	600m(stima)	11kN	Douglas		2*710HP=>1278SHP=946kW
+Douglas DC-3 /Mail	625m(stima)	9kN	Douglas		2*1100HP=>2*990SHP=1477kW
+Douglas DC-3A /Mail	625m(stima)	9kN	Douglas		2*1200HP=>2*1080SHP=1611kW
+Vickers Vicking VC1	775m		24kN	Vickers		2*1690HP=>2*1521SHP=2269kW
+Bristol Type 170 Mk32	1250m		38kN	Bristol		2*1980HP=>2*1782SHP=2659kW
+Mail Mono Plane		200m		3kN	None		100kW
+Douglas DC6		1200m		46kN	Lloyd		4*2400HP=>4*2160SHP=6445kW
+Douglas DC6B		1200m		48kN	BritishEagle	4*2500HP=>4*2250SHP=6714kW
+Douglas DC6A		1200m		46kN	RoyalMail	4*2400HP=>4*2160SHP=6445kW
+Douglas DC6A		1200m		46kN	Cargo		4*2400HP=>4*2160SHP=6445kW
+Douglas DC4		1250m		28kN	Tutti		4*1400HP=>4*1260SHP=3760kw
+
+Note tecniche:
+HP = Potenza del motore
+BHP brake horse power (da non confondersi con BHP inteso come british horse power) = HP moltiplicata per fattore di perdita dovuta ai componenti del motore (tipo alternatore, cambio, differenziale, pompa acqua....)
+SHP = potenza di un motore erogata all'albero = BHP - potenza persa per la trasmissione, tipicamente SHP = BHP * 0,9.
+
+In generale: lbs = 550 * SHP / velocità = 550 * BHP * efficenza trasmissione / velocità (velocità in ft/s - BHP Brake horse power)
+oppure kN = 550 * 4,45 * SHP / (1000 * 0,9113 * velocità) = 2,686 * SHP / velocità  - dove velocità espressa in km/h
+
+1 lbs = 4,45N
+1 foot/s = 1,09728km/h
+
+Esempio di calcolo con Viscount 757: vel crociera = 509km/h, 5600SHP
+509km/h = 463,9foot/s, thrust [lbs] = 550*5600/463,9=6639lbs,  thrust [N] = 6639*4,45= 29546N
+
+Altro calcolo
+1hp = 746W = 0,746kW
+
+Trasformare galloni in kg di cherosene o benzina avio: http://livethesky.altervista.org/conversioni.php
+I vecchi motori a pistoni in genere usavano benzina, i Jet usano cherosene.
+
+Rivista aviazione: http://www.flightglobal.com/pdfarchive/
+
+Lista produzione aerei: http://rzjets.net/aircraft/
