@@ -1,0 +1,364 @@
+@import url("common_shared.css?v=2");
+
+/* Page Layout */
+#wrap { width:996px; margin:0px auto; background-color: #476a8e; position:relative;}
+
+#header a { text-decoration:none; }
+#header a:hover { text-decoration:underline; }
+#header { font-family:Trebuchet MS, Helvetica, sans-serif; height:163px; background:url("http://cdn-www.airliners.net/graphics/frontpageLogo_996.jpg"); margin-bottom:0px; padding-bottom:0px; text-align:right; color:#fff; }
+#header .spacer { float:left; margin-left: 0px; border:0px; }
+#header .logo { float:left; margin-left: 0px; border:0px; }
+#header .headerStatus { padding-top:8px; margin:0px 10px 5px 0px; }
+#header .headerStatus a { color:#f5e3ac; text-decoration:none; }
+#header .headerStatus a:hover { color:#f5e3ac; text-decoration:underline; }
+#header .tracker {  float:right; display:inline; width:315px; margin:0px 10px -100% 0px; font-size:11px;}
+#header .tracker a { color:#f90; }
+#header .search { float:right; width:282px; text-align:left; margin-top:40px; padding:0 10px 0px 2px; }
+#header .search a { color:#fff; font-size:90%; }
+#header .search a.unselected { color:#fff; font-size:90%; }
+#header .search a.selected { color:#f5e3ac; background:url("http://cdn-www.airliners.net/images/search_selected.gif") no-repeat 50% bottom; }
+#header .search .searchOptions { margin-bottom:-1px; }
+#header .search .input { vertical-align: middle; margin:0px; padding:0px; line-height:20px; height:20px; width:200px; font-family:Trebuchet MS, Helvetica, sans-serif; font-size:100%; border-width:0px; }
+
+
+#content {  background-color: #476a8e; }
+.col_1_2_3 { margin: 0px auto 0px auto; width:998px; margin-bottom:10px; background-color: #476a8e; padding-top:10px; }
+.col_1_2 { float:left; width:670px; background-color: #476a8e; }
+.col_1 { float:left; width:300px; background-color: #476a8e; }
+.col_2 { float:right; width:360px; background-color: #476a8e; }
+.col_3 { float:right; width:300px; background-color: #476a8e; }
+
+#footer { text-align:center; color:#fff; clear:both;  font-family:Trebuchet MS, Helvetica, sans-serif; font-size:12px;}
+#footer .sitemap { color:#fff; margin:15px 0px;  font-family:Trebuchet MS, Helvetica, sans-serif; font-size:12px; }
+#footer .partners { color:#fff; margin:15px 0px;  font-family:Trebuchet MS, Helvetica, sans-serif; font-size:12px;}
+#footer a { color:#fff; margin:0 5px; font-family:Trebuchet MS, Helvetica, sans-serif;font-family:Trebuchet MS, Helvetica, sans-serif; font-size:12px; text-decoration:none; }
+#footer .copyright { font-size:80%; margin:15px 0px; }
+
+/* Lists/Tables */
+
+
+.search_table { padding: 0px 2px 0px 2px}
+.search_table tr.alt td { background:#e0e8ef; }
+
+
+/* Buttons */
+.button1 { background:url("http://cdn-www.airliners.net/images/button_80.gif") no-repeat top left; width:80px; height:20px; line-height:20px; text-align:center; color:#fff; border:none; cursor:pointer; }
+a.button1 { display:block; }
+.button2 { background:url("http://cdn-www.airliners.net/images/button_110.gif") no-repeat top left; width:110px; height:20px; line-height:20px; text-align:center; color:#fff; border:none; cursor:pointer; }
+a.button2 { display:block; }
+.button3 { background:url("http://cdn-www.airliners.net/images/button_130.gif") no-repeat top left; width:130px; height:20px; line-height:20px; text-align:center; color:#fff; border:none; cursor:pointer; }
+a.button3 { display:block; }
+.button4 { background:url("http://cdn-www.airliners.net/images/button_280.gif") no-repeat top left; width:280px; height:21px; line-height:21px; text-align:center; color:#fff; border:none; cursor:pointer; margin:0px auto 10px auto; }
+a.button4 { display:block; }
+.button5 { background:url("http://cdn-www.airliners.net/images/button_340.gif") no-repeat top left; width:340px; height:21px; line-height:21px; text-align:center; color:#fff; border:none; cursor:pointer; margin:0px auto 10px auto; }
+a.button5 { display:block; }
+.button6 { background:url("http://cdn-www.airliners.net/images/search_new.gif") no-repeat 50% 50% #6481A8; width:70px; height:26px; line-height:15px; text-align:center; color:#fff; font-weight:bold; vertical-align: middle; *vertical-align: text-middle; border:none; cursor:pointer; padding:0px; margin:0px; font-size:125%; font-family:Trebuchet MS, Helvetica, sans-serif; }
+a.button6 { display:block; }
+
+.footerButton { float:right; margin:5px 0px 5px 6px; _margin:5px 0px 5px 3px; }
+
+/* Ads */
+.ad { margin-bottom:10px; }
+
+/* Global */
+.nomb { margin-bottom:0px; }
+
+.photo { display:block; border:2px solid #fff; margin:0px auto; }
+.photoFloat { float:left; margin-right:10px; border:2px solid #fff; }
+.thumb { border:1px solid #fff; margin:0; padding:0; }
+
+.color2 { color:#69c; }
+.color3 { color:#69c; font-size:11px;}
+.smallfixtext { font-size:11px;}
+.largeFont { font-size:130%; }
+
+
+/* SuperFish Menu */
+.mainNav, .mainNav * { margin:0; padding:0; list-style:none; z-index:10000000; }
+.mainNav { line-height:29px; }
+.mainNav ul { position:absolute; top:-999em; width:180px; }
+
+.mainNav ul.navPhotos { width:180px; }
+.mainNav ul.navPhotosFAQ { width:140px; }
+.mainNav ul.navPhotosTopViews { width:140px; }
+.mainNav ul.navForums { width:140px; }
+.mainNav ul.navForumsAviation { width:160px; }
+.mainNav ul.navForumsRules { width:100px; }
+.mainNav ul.navNews { width:180px; }
+.mainNav ul.navNewsTop { width:280px; }
+.mainNav ul.navArticles { width:140px; }
+.mainNav ul.navArticlesLatest { width:280px; }
+.mainNav ul.navData { width:200px; }
+.mainNav ul.navDataUpdated { width:200px; }
+.mainNav ul.navDataNew { width:200px; }
+.mainNav ul.navCommunity { width:180px; }
+.mainNav ul.navCommunityPhotographers { width:210px; }
+.mainNav ul.navCommunityFun { width:210px; }
+
+.mainNav ul li/*, .mainNav a*/ { width: 100%; }
+.mainNav li { float:left; position:relative; z-index:99; }
+.mainNav a { text-decoration: none; display:block; }
+.mainNav li:hover ul,
+ul.mainNav li.sfHover ul { left:-1px; top:29px; }
+.mainNav li:hover ul.navCommunity,
+ul.mainNav li.sfHover ul.navCommunity { left:-84px; top:29px; }
+.mainNav li:hover ul.navData,
+ul.mainNav li.sfHover ul.navData { left:-84px; top:29px; }
+.mainNav li:hover li ul,
+.mainNav li.sfHover li ul { top:-999em; }
+.mainNav li li:hover ul,
+ul.mainNav li li.sfHover ul { left:180px; top:-1px; }
+
+.mainNav li ul.navForums li:hover ul,
+ul.mainNav li ul.navForums li.sfHover ul { left:140px; top:-1px; }
+.mainNav li ul.navNews li:hover ul,
+ul.mainNav li ul.navNews li.sfHover ul { left:180px; top:-1px; }
+.mainNav li ul.navArticles li:hover ul,
+ul.mainNav li ul.navArticles li.sfHover ul { left:140px; width:215px; top:-1px; }
+.mainNav li ul.navData li:hover ul,
+ul.mainNav li ul.navData li.sfHover ul { left:-200px; top:-1px; }
+.mainNav li ul.navCommunity li:hover ul,
+ul.mainNav li ul.navCommunity li.sfHover ul { left:-210px; top:-1px; }
+
+.superfish li:hover ul,
+.superfish li li:hover ul { top:-999em; }
+
+.mainNav { background:url("http://cdn-www.airliners.net/images/mainNav_bg.gif") repeat-x top left #242424; margin-bottom:0px; font-family:Arial, Helvetica, sans-serif; }
+.mainNav li { background:url("http://cdn-www.airliners.net/images/mainNav_border.gif") no-repeat left top; color:#fff; font-size:12px; }
+.mainNav li.first { float:left; background:none; }
+.mainNav a { text-decoration: none; line-height:29px; display:block; padding:0px 12px; text-align:center; color:#FFF; text-transform:uppercase; }
+/*.mainNav li:hover, .mainNav li.sfHover,*/
+.mainNav a:focus, .mainNav a:hover, .mainNav a:active { background:url("http://cdn-www.airliners.net/images/mainNav_bg_selected.gif") repeat-x top left; text-decoration:none; color:#f5e3ac; }
+.mainNav li li { background:#000; }
+.mainNav li li:hover, .mainNav li li.sfHover,
+.mainNav ul a:focus, .mainNav ul a:hover, .mainNav ul a:active { background:#000; text-decoration:none; color:#f5e3ac; }
+.mainNav li li a { text-transform:none; text-align:left; line-height:20px; }
+
+.mainNav li.normal { line-height:29px; padding:0px 12px; }
+.mainNav li.normal a { text-decoration: none; display:inline; color:#f5e3ac; text-transform:none; padding:0; }
+.mainNav li.normal:hover { background:url("http://cdn-www.airliners.net/images/mainNav_border.gif") no-repeat left top; }
+.mainNav li.normal a:hover { background:none; text-decoration:underline; }
+
+
+
+/* Color Choices */
+.mainNav li.normal a.color { text-decoration: none; display:block; float:left; margin:10px 0px 0px 5px; width:10px; height:10px; overflow:hidden; }
+.mainNav li.normal a.blue, .mainNav li.normal a.blue:hover { text-decoration: none; background:#002e5c; color:#002e5c; }
+.mainNav li.normal a.red, .mainNav li.normal a.red:hover { text-decoration: none; background:#f00; color:#f00; }
+.mainNav li.normal a.white, .mainNav li.normal a.white:hover { text-decoration: none; background:#ccc; color:#ccc; }
+.mainNav li.normal a.green, .mainNav li.normal a.green:hover { text-decoration: none; background:#0c0; color:#0c0; }
+.mainNav li.normal a.black, .mainNav li.normal a.black:hover { text-decoration: none; background:#000; color:#000; }
+.mainNav li.normal a.purple, .mainNav li.normal a.purple:hover { text-decoration: none; background:#29034d; color:#29034d; }
+.mainNav li.normal a.classic, .mainNav li.normal a.classic:hover { text-decoration: none; background:#476a8e; color:#476a8e; }
+
+/* Color Schemes */
+body.red #wrap, body.white #wrap, body.green #wrap, body.purple #wrap { background:#fff; padding:0px; }
+body.red .box .boxFooter,
+body.white .box .boxFooter,
+body.green .box .boxFooter,
+body.classic .box .boxFooter,
+body.purple .box .boxFooter { background:url("http://cdn-www.airliners.net/images/box/footer_bg.gif") no-repeat left bottom #e3e9f0; }
+body.red .box .boxFooterInner,
+body.white .box .boxFooterInner,
+body.green .box .boxFooterInner,
+body.classic .box .boxFooterInner,
+body.purple .box .boxFooterInner { background:url("http://cdn-www.airliners.net/images/box/footer_bg.gif") no-repeat right bottom transparent; }
+
+/* Red */
+html { background-color: #900; }
+html body.red { background-color: #900; }
+body.red .box .boxHeader { background:url("http://cdn-www.airliners.net/images/box/red/header_bg.gif") repeat-x top left #cd0000; border-top:0px solid #fff; border-bottom:0px solid #000; line-height:20px; }
+body.red #wrap { background-color: #900; }
+body.red #content { background-color: #900; }
+body.red #content .col_1_2_3 h1.homepage { background-color: #900; }
+body.red #content .col_1_2_3 { background-color: #900; }
+body.red #content .col_1_2  { background-color: #900; }
+body.red #content .col_1 { background-color: #900; }
+body.red #content .col_2 { background-color: #900; }
+body.red #content .col_3 { background-color: #900; }
+body.red #footer a { color:#999; }
+body.red #footer .sitemap { color:#999; }
+body.red #footer .partners { color:#999; }
+body.red #footer .ip { color: #900; }
+
+/* White */
+html { background-color: #999; }
+html body.white { background-color: #999; }
+body.white .box .boxHeader { background:url("http://cdn-www.airliners.net/images/box/white/header_bg.gif") repeat-x top left #cdcdcd; border-top:0px solid #fff; border-bottom:0px solid #000; line-height:20px; color:#036; }
+body.white .box .boxHeader a { color:#036; }
+body.white .box .boxHeader a.selected { color:#fff; }
+body.white #wrap { background-color: #999; }
+body.white #content { background-color: #999; }
+body.white #content .col_1_2_3 h1.homepage { background-color: #999; }
+body.white #content .col_1_2_3 { background-color: #999; }
+body.white #content .col_1_2  { background-color: #999; }
+body.white #content .col_1 { background-color: #999; }
+body.white #content .col_2 { background-color: #999; }
+body.white #content .col_3 { background-color: #999; }
+body.white #footer a { color:#fff; }
+body.white #footer .sitemap { color:#fff; }
+body.white #footer .partners { color:#fff; }
+body.white #footer .ip { color: #999; }
+
+/* Green */
+html { background-color: #060; }
+html body.green { background-color: #060; }
+body.green .box .boxHeader { background:url("http://cdn-www.airliners.net/images/box/green/header_bg.gif") repeat-x top left #009a00; border-top:0px solid #fff; border-bottom:0px solid #000; line-height:20px; }
+body.green #wrap { background-color: #060; }
+body.green #content { background-color: #060; }
+body.green #content .col_1_2_3 h1.homepage { background-color: #060; }
+body.green #content .col_1_2_3 { background-color: #060; }
+body.green #content .col_1_2  { background-color: #060; }
+body.green #content .col_1 { background-color: #060; }
+body.green #content .col_2 { background-color: #060; }
+body.green #content .col_3 { background-color: #060; }
+body.green #footer .ip { color: #060; }
+
+/* Purple */
+html { background-color: #29034d; }
+html body.purple { background-color: #29034d; }
+body.purple .box .boxHeader { background:url("http://cdn-www.airliners.net/images/box/purple/header_bg.gif") repeat-x top left #29034d; border-top:0px solid #fff; border-bottom:0px solid #000; line-height:20px; }
+body.purple #wrap { background-color: #29034d; }
+body.purple #content { background-color: #29034d; }
+body.purple #content .col_1_2_3 h1.homepage { background-color: #29034d; }
+body.purple #content .col_1_2_3 { background-color: #29034d; }
+body.purple #content .col_1_2  { background-color: #29034d; }
+body.purple #content .col_1 { background-color: #29034d; }
+body.purple #content .col_2 { background-color: #29034d; }
+body.purple #content .col_3 { background-color: #29034d; }
+body.purple #footer .ip { color: #29034d; }
+
+/* Classic */
+html { background-color: #476a8e; }
+html body.classic { background-color: #476a8e; }
+body.classic .box .boxHeader { background:url("http://cdn-www.airliners.net/images/box/classic/header_bg.gif") repeat-x top left #476a8e; border-top:0px solid #fff; border-bottom:0px solid #000; line-height:20px; }
+body.classic #wrap { background-color: #476a8e; }
+body.classic #content { background-color: #476a8e; }
+body.classic #content .col_1_2_3 h1.homepage { background-color: #476a8e; }
+body.classic #content .col_1_2_3 { background-color: #476a8e; }
+body.classic #content .col_1_2  { background-color: #476a8e; }
+body.classic #content .col_1 { background-color: #476a8e; }
+body.classic #content .col_2 { background-color: #476a8e; }
+body.classic #content .col_3 { background-color: #476a8e; }
+body.classic #footer .ip { color: #476a8e; }
+
+/* Blue */
+html body.blue { background-color: #002e5c; }
+body.blue .box .boxHeader { background:url("http://cdn-www.airliners.net/images/box/header_bg.gif") repeat-x top left #002e5c; border-top:0px solid #fff; border-bottom:0px solid #000; line-height:20px; }
+body.blue #wrap { background-color: #002e5c; }
+body.blue #content { background-color: #002e5c; }
+body.blue #content .col_1_2_3 h1.homepage { background-color: #002e5c; }
+body.blue #content .col_1_2_3 { background-color: #002e5c; }
+body.blue #content .col_1_2  { background-color: #002e5c; }
+body.blue #content .col_1 { background-color: #002e5c; }
+body.blue #content .col_2 { background-color: #002e5c; }
+body.blue #content .col_3 { background-color: #002e5c; }
+body.blue #footer .ip { color: #002e5c; }
+
+
+
+/*Old Styles*/
+
+.description { font-family: Verdana, Helvetica, Arial; font-size: 9pt; font-style : italic; color: #e6e8fa;}
+a:hover, .link:hover {color: #BB2A2A;}
+a:active 	{color: #a50000;}
+a, .link { color:#fff; }
+a:link.one {text-decoration:none; }
+a:active.one {text-decoration:none; }
+a:visited.one {text-decoration:none; }
+a:hover.one {text-decoration:underline; color:#BB2A2A;}
+
+a:link.quote {text-decoration:none; color:#C4C8CC;}
+a:active.quote {text-decoration:none; color:#C4C8CC; }
+a:visited.quote {text-decoration:none; color:#C4C8CC; }
+a:hover.quote {text-decoration:underline; color:#BB2A2A;}
+
+
+.forum {text-decoration:none; font-family: Verdana, Helvetica, Arial;font-size: 8pt; color:#C4C8CC; }
+a:link.forum {text-decoration:none; color:#e6e8fa; }
+a:visited.forum {text-decoration:none; color:#e6e8fa; }
+a:active.forum {text-decoration:none; color:#e6e8fa; }
+a:hover.forum {text-decoration:underline; color:#BB2A2A;}
+
+.forumHead {text-decoration:none; font-family: Verdana, Helvetica, Arial;font-size: 10pt; color:#C4C8CC; }
+a:link.forumHead {text-decoration:none; color:#e6e8fa; }
+a:visited.forumHead {text-decoration:none; color:#e6e8fa; }
+a:active.forumHead {text-decoration:none; color:#e6e8fa; }
+a:hover.forumHead {text-decoration:underline; color:#BB2A2A;}
+
+.forumTop {text-decoration:none; font-family: Verdana, Helvetica, Arial;font-size: 10pt; color:#FFFFFF; }
+
+
+.class1 {text-decoration:none;text-shadow: 2px 2px 4px black;}
+.class1 A:link {text-decoration:none;text-shadow: 2px 2px 4px black;}
+.class1 A:visited {text-decoration:none;text-shadow: 2px 2px 4px black;}
+.class1 A:active {text-decoration:none;text-shadow: 2px 2px 4px black;}
+.class1 A:hover {text-decoration:none;color: #BB2A2A;text-shadow: 2px 2px 4px black;}
+
+.class2 {text-decoration: none;text-shadow: 2px 2px 4px black;}
+.class2 A:link {text-decoration:underline;text-shadow: 2px 2px 4px black;}
+.class2 A:visited {text-decoration:underline;text-shadow: 2px 2px 4px black;}
+.class2 A:active {text-decoration:underline;text-shadow: 2px 2px 4px black;}
+.class2 A:hover {text-decoration:underline;color: #BB2A2A;text-shadow: 2px 2px 4px black;}
+
+input {font-family: Verdana, Helvetica, Arial;font-size: 8pt;}
+
+div.menu a {
+color: #1D364C; 
+background: #071726; 
+text-decoration:none; 
+font-size:9px;
+font-weight: bold; 
+line-height:12px; 
+font-family: Tahoma, verdana, sans-serif;
+padding: 2px 1px;
+text-align: center;
+text-transform:uppercase;
+}
+
+div.menu a:link {
+color: #c4c8cc; 
+background:  url(http://cdn-www.airliners.net/graphics/frontButton.jpg);
+text-shadow: 1px 1px 2px black;
+}
+
+div.menu a:active { 
+color: #c4c8cc;
+background:  url(http://cdn-www.airliners.net/graphics/frontButton.jpg);
+text-shadow: 1px 1px 2px black;
+}
+
+div.menu a:visited {
+color: #c4c8cc; 
+background:  url(http://cdn-www.airliners.net/graphics/frontButton.jpg); 
+text-shadow: 1px 1px 2px black;
+}
+
+div.menu a:hover {
+color: white;
+background:  url(http://cdn-www.airliners.net/graphics/frontButtonHover.jpg); 
+border:1px solid #c4c8cc;
+text-shadow: 1px 1px 2px black;
+}
+
+div.menu ( 
+position:absolute;
+top:0; 
+left:0;
+)
+
+.breadcrumb {
+	font-size: 11px;color:#ffffff;font-weight:bold;
+}
+
+a.breadcrumb {
+	font-size: 11px;color:#ffffff;font-weight:bold;
+}
+
+b.breadcrumb {
+	font-size: 11px;color:#ffffff;font-weight:bold;
+}
+
+td.breadcrumb {
+	font-size: 11px;color:#ffffff;font-weight:bold;
+}

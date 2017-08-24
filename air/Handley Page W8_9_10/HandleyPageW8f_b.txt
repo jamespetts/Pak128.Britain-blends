@@ -1,0 +1,28 @@
+Specifications (W.8f)
+
+Data from British Civil Aircraft since 1919 Volume 2[7]
+
+General characteristics
+
+    Crew: Two
+    Capacity: 12 passengers
+    Length: 60 ft 1½ in (18.33 m)
+    Wingspan: 75 ft 2 in (22.92 m)
+    Height: 17 ft 0 in (5.18 m)
+    Wing area: 1,456 ft² (135.3 m²)
+    Empty weight: 8,600 lb (3,910 kg)
+    Loaded weight: 13,000 lb (5,910 kg)
+    Powerplant: 1 × Rolls-Royce Eagle IX V-12 water-cooled piston (in nose), 360 hp (269 kW)
+    , and 2 x 240 hp (179 kW) Siddeley Puma engines (between wings)
+
+Performance
+
+    Maximum speed: 90 kn (103 mph, 166 km/h)
+    Cruise speed: 74 kn (85 mph, 137 km/h)
+    Service ceiling: 13,000 ft (3,960 m)
+    Wing loading: 8.93 lb/ft² (43.7 kg/m²)
+    Power/mass: 0.065 hp/lb (0.107 kW/kg)
+
+
+W8b
+    Powerplant: 2 × Rolls-Royce Eagle IX V-12 water-cooled piston 360 hp (269 kW)

@@ -1,0 +1,59 @@
+
+Lunghezza pista di decollo: non ho trovato dati specifici, in cambio la pista di decollo di Linate nel 37 era lunga 600m ed accettava i DC2.
+
+Introduction 	1936
+Status 	Active service with small carriers
+Produced 	1936-1942, 1950
+Number built 	16,079[1]
+Unit cost 	
+US$79,500 ($1,367,516 in 2014)[2][3]
+
+Specifications (DC-3A)
+
+Data from McDonnell Douglas Aircraft since 1920[32]
+
+General characteristics
+
+    Crew: two
+    Capacity: 21-32 passengers
+    Length: 64 ft 8 in (19.7 m)
+    Wingspan: 95 ft 2 in (29.0 m)
+    Height: 16 ft 11 in (5.16 m)
+    Wing area: 987 sq ft (91.7 m2)
+    Empty weight: 16,865 lb (7,650 kg)
+    Gross weight: 25,199 lb (11,430 kg)
+    Fuel capacity: 822 gal. (3736 l)
+    Powerplant: 2 × Wright R-1820 Cyclone 9-cyl. air-cooled radial piston engine, 1,100 hp (820 kW) each (DC-3)
+    Powerplant: 2 × Pratt & Whitney R-1830-S1C3G Twin Wasp 14-cyl. air-cooled two row radial piston engine, 1,200 hp (890 kW) each (DC-3A)
+    Propellers: 3-bladed Hamilton Standard 23E50 series, 11.5 ft (3.5 m) diameter
+
+Performance
+
+    Maximum speed: 200 kn; 370 km/h (230 mph) at 8,500 ft (2,590 m)
+    Cruise speed: 180 kn; 333 km/h (207 mph)
+    Stall speed: 58.2 kn (67 mph; 108 km/h)
+    Service ceiling: 23,200 ft (7,100 m)
+    Rate of climb: 1,130 ft/min (5.7 m/s)
+    Wing loading: 25.5 lb/sq ft (125 kg/m2)
+    Power/mass: 0.0952 hp/lb (156.5 W/kg)
+
+
+
+Lunghezza 	19,65 m
+Apertura alare 	28,96 m
+Freccia alare 	15,5 °
+Altezza 	5,16 m
+Superficie alare 	91,7 m²
+Carico alare 	138,49 kg/m²
+Peso a vuoto 	8 300 kg
+Peso max al decollo 	12 700 kg
+Passeggeri 	da 21 a 32
+Capacità combustibile 	2 serbatoi principali da 765 L l'uno (202 gal)
+2 serbatoi ausiliari da 757 L (200 gal) ciascuno
+2 serbatoi per l'olio da 110 L (29 gal) ciascuno
+
+Velocità max 	381 km/h
+Velocità di crociera 	274 km/h (DC-3)
+
+
+2x765litri+2x757litri di serbatoio = 3044litri = circa 2197kg

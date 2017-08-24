@@ -1,0 +1,28 @@
+TWA accepted the basic design and ordered 20, with more powerful engines and seating for 14 passengers, as DC-2s. The design impressed a number of American and European airlines and further orders followed. Those for European customers KLM, LOT, Swissair, CLS and LAPE were assembled by Fokker in the Netherlands after that company bought a licence from Douglas.[1] Airspeed Ltd. took a similar licence for DC-2s to be delivered in Britain and assigned the company designation Airspeed AS.23, but although a registration for one aircraft was reserved none were actually delivered.[1] Another licence was taken by the Nakajima Aircraft Company in Japan; unlike Fokker and Airspeed, Nakajima built five aircraft as well as assembling at least one Douglas-built aircraft.[1] A total of 130 Civil DC-2s were built with another 62 for the United States military. In 1935, Don Douglas stated in an article, that the DC-2 cost approximately $80,000 per aircraft, if mass-produced.[2]
+
+Introduction 	May 18, 1934 with Trans World Airlines
+Produced 	1934 - 1939
+
+DC-2
+    156 civil DC-2s, variously powered by two Wright R-1820-F2 -F2A -F3 -F3A -F3B -F52 -F53 Cyclone radial piston engines varying in power from 710 to 875 hp (529 to 652 kW).
+
+Lunghezza pista di decollo: non ho trovato dati specifici, in cambio la pista di decollo di Linate nel 37 era lunga 600m ed accettava i DC2.
+
+Velocità max 	338 km/h
+Velocità di crociera 	300 km/h
+
+
+    Crew: two-three
+    Capacity: 14 passengers
+    Length: 62 ft 6 in (19.1 m)
+    Wingspan: 85 ft 0 in (25.9 m)
+    Height: 15 ft 10 in (4.8 m)
+    Wing area: 940 ft² (87.3 m²)
+    Empty weight: 12,455 lb (5,650 kg)
+    Loaded weight: 18,560 lb (8,420 kg)
+    Powerplant: 2 × Wright GR-1820-F53 Cyclone 9-cylinder radial engines, 730 hp (540 kW) each
+
+Peso a vuoto 	5 650 kg
+Peso MTOW 	8 420 kg
+
+2660litri di serbatoio = circa 1920kg

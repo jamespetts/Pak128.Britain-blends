@@ -1,0 +1,12 @@
+Passeggeri 2
+Carico max 210kg
+peso a vuoto 1085kg
+peso carico 1578
+
+As production continued, DH.4s were fitted with Eagle engines of increasing power, settling on the 375 hp (280 kW) Eagle VIII, which powered the majority of front line DH.4s by the end of 1917. Because of the chronic shortage of Rolls-Royce aero engines in general, and Eagles in particular, alternative engines were also investigated, with the BHP (230 hp/170 kW), the Royal Aircraft Factory RAF3A (200 hp/150 kW), the Siddeley Puma (230 hp/170 kW) and the 260 hp (190 kW) Fiat, all being used in production aircraft.[3] None of these engines could match the Rolls-Royce Eagle, however there were simply not enough Eagles available.
+
+vel max 171km/h
+Lunghezza=9,35m
+Larghezza=13,21m
+h=3,35m
+Introduzione voli civili / posta agosto 1919 circa
