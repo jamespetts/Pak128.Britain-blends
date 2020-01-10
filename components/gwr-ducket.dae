@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0</authoring_tool>
+    </contributor>
+    <created>2020-01-10T17:34:55</created>
+    <modified>2020-01-10T17:34:55</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Upper_body_panelling-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.5608 0.5424339 0.4873352 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Lining-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.512 0.3747839 0 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.249975 0.249975 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Lower_body_panelling-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.1096 0.0689647 0.041648 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Upper_lining_1-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.1096 0.0688288 0.041648 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Interior-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">8e-5 7.9992e-5 7.9992e-5 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.4999499 0.4999499 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Upper_body_panelling-material" name="Upper_body_panelling">
+      <instance_effect url="#Upper_body_panelling-effect"/>
+    </material>
+    <material id="Lining-material" name="Lining">
+      <instance_effect url="#Lining-effect"/>
+    </material>
+    <material id="Lower_body_panelling-material" name="Lower_body_panelling">
+      <instance_effect url="#Lower_body_panelling-effect"/>
+    </material>
+    <material id="Upper_lining_1-material" name="Upper_lining_1">
+      <instance_effect url="#Upper_lining_1-effect"/>
+    </material>
+    <material id="Interior-material" name="Interior">
+      <instance_effect url="#Interior-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_001-mesh" name="Cube.001">
+      <mesh>
+        <source id="Cube_001-mesh-positions">
+          <float_array id="Cube_001-mesh-positions-array" count="114">-1.181377 -1 -1.993576 -1.181377 -1 2.407103 -1.181377 0.7523511 -1.993576 -1.181377 0.7523511 2.407103 -0.9671799 -1 -1.993576 -0.9671799 -1 2.407103 -0.9671799 0.7523511 -1.993576 -0.9671799 0.7523511 2.407103 -0.6593273 0.7523511 0.2067632 -0.6593273 -1 0.2067632 -0.6593273 0.7523511 -0.8934064 -0.6593273 -1 -0.8934064 -0.6593273 0.7523511 1.306933 -0.6593273 -1 1.306933 -0.7216386 0.7523511 -1.443491 -0.7216386 -1 -1.443491 -0.6593273 0.7523511 0.7568481 -0.6593273 -1 0.7568481 -0.6593273 0.7523511 -0.3433216 -0.6593273 -1 -0.3433216 -0.7216386 0.7523511 1.857018 -0.7216386 -1 1.857018 -0.8781433 0.7523511 -1.718534 -0.8781433 -1 -1.718534 -0.6593273 0.7523511 0.4818057 -0.6593273 -1 0.4818057 -0.6593273 0.7523511 -0.618364 -0.6593273 -1 -0.618364 -0.6593273 0.7523511 1.581975 -0.6593273 -1 1.581975 -0.6593273 0.7523511 -1.168449 -0.6593273 -1 -1.168449 -0.6593273 0.7523511 1.03189 -0.6593273 -1 1.03189 -0.6593273 0.7523511 -0.06827914 -0.6593273 -1 -0.06827914 -0.8781432 0.7523511 2.13206 -0.8781432 -1 2.13206</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-positions-array" count="38" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_001-mesh-normals">
+          <float_array id="Cube_001-mesh-normals-array" count="66">-1 0 0 0 1 0 0.9513915 0 0.3079841 0 -1 0 0 0 -1 0 0 1 1 0 0 0.8691433 0 -0.4945604 0.9752846 0 0.2209525 0.9513915 0 -0.307984 0.9752847 0 -0.220952 0.8691436 0 0.49456 0 1 2.87588e-7 0 1 -5.59033e-7 0 1 5.59034e-7 0 1 -5.75175e-7 0.9513915 0 0.3079844 0.8691436 0 -0.49456 0.9752847 0 0.2209523 0.9513916 0 -0.3079837 0.9752846 0 -0.2209525 0.8691433 0 0.4945603</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-normals-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_001-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_001-mesh-positions"/>
+        </vertices>
+        <triangles material="Upper_body_panelling-material" count="22">
+          <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
+          <p>1 0 2 0 0 0 8 6 35 6 34 6 12 6 33 6 32 6 16 6 25 6 24 6 20 8 29 8 28 8 28 6 13 6 12 6 26 6 11 6 10 6 24 6 9 6 8 6 32 6 17 6 16 6 34 6 19 6 18 6 36 11 21 11 20 11 1 0 3 0 2 0 8 6 9 6 35 6 12 6 13 6 33 6 16 6 17 6 25 6 20 18 21 18 29 18 28 6 29 6 13 6 26 6 27 6 11 6 24 6 25 6 9 6 32 6 33 6 17 6 34 6 35 6 19 6 36 21 37 21 21 21</p>
+        </triangles>
+        <triangles material="Lining-material" count="4">
+          <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
+          <p>10 6 31 6 30 6 18 6 27 6 26 6 10 6 11 6 31 6 18 6 19 6 27 6</p>
+        </triangles>
+        <triangles material="Lower_body_panelling-material" count="8">
+          <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
+          <p>6 4 0 4 2 4 14 7 23 7 22 7 22 9 4 9 6 9 30 10 15 10 14 10 6 4 4 4 0 4 14 17 15 17 23 17 22 19 23 19 4 19 30 20 31 20 15 20</p>
+        </triangles>
+        <triangles material="Upper_lining_1-material" count="4">
+          <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
+          <p>7 2 37 2 36 2 3 5 5 5 7 5 7 16 5 16 37 16 3 5 1 5 5 5</p>
+        </triangles>
+        <triangles material="Interior-material" count="34">
+          <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
+          <p>26 1 10 1 2 1 35 3 0 3 19 3 6 1 2 1 22 1 2 1 3 1 8 1 2 1 34 1 18 1 3 1 7 1 36 1 36 12 20 12 28 12 12 1 32 1 3 1 32 1 16 1 3 1 12 1 3 1 28 1 36 13 28 13 3 13 34 1 2 1 8 1 22 14 2 14 30 14 30 15 14 15 22 15 24 1 8 1 3 1 24 1 3 1 16 1 2 1 18 1 26 1 30 1 2 1 10 1 0 3 4 3 23 3 23 3 15 3 31 3 11 3 27 3 0 3 27 3 19 3 0 3 11 3 0 3 31 3 23 3 31 3 0 3 1 3 0 3 9 3 1 3 17 3 33 3 37 3 5 3 1 3 29 3 21 3 37 3 33 3 13 3 1 3 1 3 25 3 17 3 13 3 29 3 1 3 29 3 37 3 1 3 35 3 9 3 0 3 9 3 25 3 1 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Cube_002" name="Cube_002" type="NODE">
+        <matrix sid="transform">0.2 0 0 1.101899 0 0.2 0 2.253852 0 0 0.2 1.635441 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_001-mesh" name="Cube_002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Upper_body_panelling-material" target="#Upper_body_panelling-material"/>
+              <instance_material symbol="Lining-material" target="#Lining-material"/>
+              <instance_material symbol="Lower_body_panelling-material" target="#Lower_body_panelling-material"/>
+              <instance_material symbol="Upper_lining_1-material" target="#Upper_lining_1-material"/>
+              <instance_material symbol="Interior-material" target="#Interior-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
