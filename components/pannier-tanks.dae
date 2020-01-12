@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0</authoring_tool>
+    </contributor>
+    <created>2020-01-12T18:51:31</created>
+    <modified>2020-01-12T18:51:31</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="MainColour1-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.036 0.144 0.040968 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.4999499 0.4999499 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.05395921</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Black-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.08000001 0.079992 0.079992 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.4999499 0.4999499 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="MainColour1-material" name="MainColour1">
+      <instance_effect url="#MainColour1-effect"/>
+    </material>
+    <material id="Black-material" name="Black">
+      <instance_effect url="#Black-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube-mesh" name="Cube">
+      <mesh>
+        <source id="Cube-mesh-positions">
+          <float_array id="Cube-mesh-positions-array" count="48">-0.7894514 -1.343148 -0.7670226 -0.7047809 -1.343148 -0.8998803 -0.7047809 -1.343148 -0.2494641 -0.7894514 -1.343148 -0.3341346 -0.7047809 1.54948 -0.8998803 -0.7894514 1.54948 -0.7670226 -0.7894514 1.54948 -0.3341346 -0.7047809 1.54948 -0.2494641 0.6873812 -1.343148 -0.8998803 0.7720516 -1.343148 -0.7670226 0.7720516 -1.343148 -0.3341346 0.6873812 -1.343148 -0.2494641 0.7720516 1.54948 -0.7670226 0.6873812 1.54948 -0.8998803 0.6873812 1.54948 -0.2494641 0.7720516 1.54948 -0.3341346</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-normals">
+          <float_array id="Cube-mesh-normals-array" count="42">0 -1 0 1 0 0 0 0 1 -1 0 0 0 1 0 -0.8433032 0 -0.5374382 -0.7071069 0 0.7071067 0.8433032 0 -0.5374382 0.7071068 0 0.7071067 0 0 -1 -0.8433029 0 -0.5374387 -0.7071068 0 0.7071067 0.8433029 0 -0.5374387 0.7071069 0 0.7071067</float_array>
+          <technique_common>
+            <accessor source="#Cube-mesh-normals-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube-mesh-vertices">
+          <input semantic="POSITION" source="#Cube-mesh-positions"/>
+        </vertices>
+        <triangles material="MainColour1-material" count="22">
+          <input semantic="VERTEX" source="#Cube-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube-mesh-normals" offset="1"/>
+          <p>15 1 9 1 12 1 7 2 11 2 14 2 3 3 5 3 0 3 13 4 14 4 12 4 1 5 5 5 4 5 7 6 3 6 2 6 13 7 9 7 8 7 11 8 15 8 14 8 13 9 1 9 4 9 15 1 10 1 9 1 7 2 2 2 11 2 3 3 6 3 5 3 13 4 4 4 7 4 4 4 5 4 7 4 5 4 6 4 7 4 7 4 14 4 13 4 14 4 15 4 12 4 1 10 0 10 5 10 7 11 6 11 3 11 13 12 12 12 9 12 11 13 10 13 15 13 13 9 8 9 1 9</p>
+        </triangles>
+        <triangles material="Black-material" count="6">
+          <input semantic="VERTEX" source="#Cube-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube-mesh-normals" offset="1"/>
+          <p>1 0 2 0 0 0 1 0 8 0 11 0 8 0 9 0 11 0 9 0 10 0 11 0 11 0 2 0 1 0 2 0 3 0 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Cube_005" name="Cube_005" type="NODE">
+        <matrix sid="transform">1 0 0 -0.00887537 0 1 0 -2.489333 0 0 1 1.949511 0 0 0 1</matrix>
+        <instance_geometry url="#Cube-mesh" name="Cube_005">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MainColour1-material" target="#MainColour1-material"/>
+              <instance_material symbol="Black-material" target="#Black-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
