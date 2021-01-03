@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
+    </contributor>
+    <created>2021-01-03T15:58:09</created>
+    <modified>2021-01-03T15:58:09</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Trim-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4 0.372 0 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Trim-material" name="Trim">
+      <instance_effect url="#Trim-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane-mesh" name="Plane">
+      <mesh>
+        <source id="Plane-mesh-positions">
+          <float_array id="Plane-mesh-positions-array" count="180">0.5495391 -1.955011 0 0.8630623 -1.955011 0 0.5495391 -0.6036651 0 0.8630623 -0.6036651 0 0.5495391 -1.279338 0 0.7063007 -1.955011 0 0.8630623 -1.279338 0 0.7063007 -0.6036651 0 0.5495391 -1.687884 0 0.7846814 -1.955011 0 0.8630623 -0.8707917 0 0.6279199 -0.6036651 0 0.5495391 -0.8707917 0 0.6279199 -1.955011 0 0.8630623 -1.687884 0 0.7846814 -0.6036651 0 0.7846814 -1.687884 0 0.6279199 -1.687884 0 0.6279199 -0.8707917 0 0.7846814 -0.8707917 0 0.5495391 -1.892157 0 0.8238719 -1.955011 0 0.8630623 -0.6665186 0 0.5887295 -0.6036651 0 0.5495391 -1.075065 0 0.6671103 -1.955011 0 0.8630623 -1.483611 0 0.745491 -0.6036651 0 0.7063007 -0.6665186 0 0.5887295 -1.279338 0 0.5495391 -1.483611 0 0.745491 -1.955011 0 0.8630623 -1.075065 0 0.6671103 -0.6036651 0 0.5495391 -0.6665186 0 0.5887295 -1.955011 0 0.8630623 -1.892157 0 0.8238719 -0.6036651 0 0.7063007 -1.892157 0 0.8238719 -1.279338 0 0.7846814 -1.892157 0 0.8238719 -1.687884 0 0.6279199 -1.892157 0 0.5887295 -1.687884 0 0.6279199 -0.6665186 0 0.5887295 -0.8707917 0 0.7846814 -0.6665186 0 0.8238719 -0.8707917 0 0.8238719 -1.075065 0 0.745491 -0.6665186 0 0.5887295 -1.075065 0 0.5887295 -0.6665186 0 0.6671103 -1.892157 0 0.5887295 -1.892157 0 0.5887295 -1.483611 0 0.8238719 -1.892157 0 0.745491 -1.892157 0 0.8238719 -1.483611 0 0.6671103 -0.6665186 0 0.8238719 -0.6665186 0</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-positions-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-normals">
+          <float_array id="Plane-mesh-normals-array" count="105">-4.06111e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06111e-7 0 1 -4.06111e-7 0 1 -4.06113e-7 0 1 -4.06111e-7 0 1 -4.06111e-7 0 1 -4.06111e-7 0 1 -4.06115e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06114e-7 0 1 -4.06112e-7 0 1 -4.06111e-7 0 1 -4.06111e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06111e-7 0 1 -4.06111e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06111e-7 0 1 -4.06111e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1 -4.06112e-7 0 1</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-normals-array" count="35" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane-mesh-vertices">
+          <input semantic="POSITION" source="#Plane-mesh-positions"/>
+        </vertices>
+        <triangles material="Trim-material" count="64">
+          <input semantic="VERTEX" source="#Plane-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane-mesh-normals" offset="1"/>
+          <p>22 0 37 0 59 0 28 1 33 1 58 1 26 2 39 2 57 2 36 3 41 3 55 3 42 4 43 4 53 4 44 5 23 5 51 5 46 6 27 6 49 6 32 7 47 7 48 7 6 7 48 7 39 7 49 8 7 8 28 8 50 9 12 9 24 9 29 9 24 9 4 9 51 10 2 10 34 10 45 11 34 11 12 11 18 11 51 11 45 11 25 7 42 7 13 7 5 12 52 12 25 12 53 4 8 4 20 4 35 13 20 13 0 13 13 14 53 14 35 14 54 4 4 4 30 4 43 4 30 4 8 4 55 15 16 15 40 15 21 16 40 16 9 16 1 17 55 17 21 17 31 18 38 18 5 18 9 19 56 19 31 19 14 2 57 2 41 2 58 20 11 20 44 20 59 21 15 21 46 21 47 22 46 22 19 22 10 23 59 23 47 23 22 16 3 16 37 16 28 8 7 8 33 8 26 7 6 7 39 7 36 24 14 24 41 24 42 25 17 25 43 25 44 14 11 14 23 14 46 26 15 26 27 26 32 2 10 2 47 2 6 27 32 27 48 27 49 1 27 1 7 1 50 4 45 4 12 4 29 28 50 28 24 28 51 7 23 7 2 7 45 4 51 4 34 4 18 14 44 14 51 14 25 14 52 14 42 14 5 29 38 29 52 29 53 30 43 30 8 30 35 7 53 7 20 7 13 14 42 14 53 14 54 9 29 9 4 9 43 4 54 4 30 4 55 31 41 31 16 31 21 19 55 19 40 19 1 32 36 32 55 32 31 33 56 33 38 33 9 19 40 19 56 19 14 2 26 2 57 2 58 33 33 33 11 33 59 34 37 34 15 34 47 19 59 19 46 19 10 2 22 2 59 2</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Plane" name="Plane" type="NODE">
+        <matrix sid="transform">8.8898e-8 0 1 0.9294994 0 1.259561 0 3.208546 -1.17749 0 7.54979e-8 1.819406 0 0 0 1</matrix>
+        <instance_geometry url="#Plane-mesh" name="Plane">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Trim-material" target="#Trim-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
