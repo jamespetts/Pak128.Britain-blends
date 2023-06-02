@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f2352830</authoring_tool>
+    </contributor>
+    <created>2023-06-01T22:50:36</created>
+    <modified>2023-06-01T22:50:36</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Teak_005-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.48 0.2560721 0.09691344 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.4999499 0.4999499 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="Teak-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.48 0.2560721 0.09691344 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.4999499 0.4999499 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Teak_005-material" name="Teak_005">
+      <instance_effect url="#Teak_005-effect"/>
+    </material>
+    <material id="Teak-material" name="Teak">
+      <instance_effect url="#Teak-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_015-mesh" name="Plane.015">
+      <mesh>
+        <source id="Plane_015-mesh-positions">
+          <float_array id="Plane_015-mesh-positions-array" count="102">1.056988 1.641888 -26.02652 1.047529 2.041473 -26.02652 1.037068 2.242344 -26.02652 1.054301 1.541992 -26.02652 1.056988 1.641888 -26.77902 1.04753 2.041473 -26.77902 1.037068 2.242344 -26.77902 1.054301 1.541992 -26.77902 1.056988 1.641888 -24.76885 1.04753 2.041473 -24.76885 1.037068 2.242344 -24.76885 1.054301 1.541992 -24.76885 1.056988 1.641888 -24.37678 1.04753 2.041473 -24.37678 1.037068 2.242344 -24.37678 1.054301 1.541992 -24.37678 1.056989 1.641888 -23.16599 1.04753 2.041473 -23.16599 1.037068 2.242344 -23.16599 1.054301 1.541992 -23.16599 1.056989 1.641888 -22.79841 1.04753 2.041473 -22.79841 1.037069 2.242344 -22.79841 1.054301 1.541992 -22.79841 1.047531 2.041473 -21.5405 1.056989 1.641888 -21.5405 1.042299 2.107402 -24.37678 1.042299 2.107402 -23.16599 1.037069 2.242344 -21.5405 1.054302 1.541992 -21.5405 1.047531 2.041473 -21.22194 1.056989 1.641888 -21.22194 1.037069 2.242344 -21.22194 1.054302 1.541992 -21.22194</float_array>
+          <technique_common>
+            <accessor source="#Plane_015-mesh-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_015-mesh-normals">
+          <float_array id="Plane_015-mesh-normals-array" count="102">0.99972 0.02366441 3.13469e-7 0.9986464 0.05201166 3.20452e-7 -0.9996384 0.02689266 -3.15816e-7 -0.9996384 0.02689212 2.81366e-7 -0.9996383 0.02689284 3.16691e-7 0.998636 0.05201137 0.004577159 0.99972 0.02366435 -3.0711e-7 -0.9996384 0.02689284 2.92259e-7 0.9968672 0.07909351 -3.02388e-7 -0.9996384 0.02689272 3.37805e-7 0.9986347 0.05201029 -0.004882872 0.99972 0.02366399 -3.27581e-7 -0.9996384 0.0268926 2.81312e-7 0.99972 0.02366429 -3.77981e-7 0.9986465 0.05201113 -3.48825e-7 -0.9996383 0.02689439 3.51065e-7 0.99972 0.02366423 3.22032e-7 0.9986466 0.05201089 3.19959e-7 -0.9996384 0.02689248 -3.22008e-7 -0.9996384 0.02689212 2.88999e-7 -0.9996383 0.02689313 2.8524e-7 0.9968674 0.07909107 -3.5916e-7 0.9992496 0.03873437 -3.16614e-7 0.99972 0.02366435 -3.09031e-7 -0.9996384 0.02689284 3.00187e-7 0.9968672 0.07909351 -2.84764e-7 -0.9996384 0.02689272 3.04253e-7 0.9968671 0.07909452 -3.06482e-7 0.9992496 0.03873467 -3.38471e-7 0.99972 0.02366429 -3.29635e-7 -0.9996384 0.02689254 2.88942e-7 0.99972 0.02366429 -3.80346e-7 0.9986464 0.0520119 -3.78482e-7 -0.9996384 0.02689248 3.87632e-7</float_array>
+          <technique_common>
+            <accessor source="#Plane_015-mesh-normals-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_015-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_015-mesh-positions"/>
+        </vertices>
+        <polylist material="Teak_005-material" count="34">
+          <input semantic="VERTEX" source="#Plane_015-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_015-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 5 0 1 0 1 1 6 1 2 1 0 2 7 2 3 2 3 3 8 3 0 3 11 4 12 4 8 4 10 5 26 5 9 5 9 6 12 6 8 6 15 7 16 7 12 7 13 8 27 8 17 8 19 9 20 9 16 9 27 10 22 10 21 10 17 11 20 11 16 11 23 12 25 12 20 12 24 13 31 13 25 13 24 14 32 14 30 14 25 15 33 15 31 15 0 16 4 16 5 16 1 17 5 17 6 17 0 18 4 18 7 18 3 19 11 19 8 19 11 20 15 20 12 20 13 21 9 21 26 21 10 22 14 22 26 22 9 23 13 23 12 23 15 24 19 24 16 24 13 25 26 25 27 25 19 26 23 26 20 26 21 27 17 27 27 27 27 28 18 28 22 28 17 29 21 29 20 29 23 30 29 30 25 30 24 31 30 31 31 31 24 32 28 32 32 32 25 33 29 33 33 33</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Plane_254-mesh" name="Plane.254">
+      <mesh>
+        <source id="Plane_254-mesh-positions">
+          <float_array id="Plane_254-mesh-positions-array" count="102">1.056988 1.641888 -25.86257 1.047529 2.041473 -25.86257 1.037068 2.242344 -25.86257 1.054301 1.541992 -25.86257 1.056989 1.641888 -26.20264 1.04753 2.041473 -26.20264 1.037068 2.242344 -26.20264 1.054301 1.541992 -26.20264 1.056988 1.641888 -24.92047 1.04753 2.041473 -24.92047 1.037068 2.242344 -24.92047 1.054301 1.541992 -24.92047 1.056989 1.641888 -24.56965 1.04753 2.041473 -24.56965 1.037068 2.242344 -24.56965 1.054301 1.541992 -24.56965 1.056989 1.641888 -23.36929 1.04753 2.041473 -23.36929 1.037069 2.242344 -23.36929 1.054301 1.541992 -23.36929 1.056989 1.641888 -23.02235 1.047531 2.041473 -23.02235 1.037069 2.242344 -23.02235 1.054302 1.541992 -23.02235 1.04753 2.041473 -22.03973 1.056989 1.641888 -22.03973 1.042299 2.107402 -24.56965 1.042299 2.107402 -23.36929 1.037068 2.242344 -22.03973 1.054301 1.541992 -22.03973 1.04753 2.041473 -21.67239 1.056988 1.641888 -21.67239 1.037068 2.242344 -21.67239 1.054301 1.541992 -21.67239</float_array>
+          <technique_common>
+            <accessor source="#Plane_254-mesh-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_254-mesh-normals">
+          <float_array id="Plane_254-mesh-normals-array" count="102">0.99972 0.02366387 1.76145e-6 0.9986466 0.05201047 1.77268e-6 -0.9996384 0.02689254 -1.76074e-6 -0.9996384 0.02689206 5.07412e-7 -0.9996384 0.02689343 3.53938e-7 0.9986335 0.05201107 0.005115449 0.99972 0.02366429 -3.43225e-7 -0.9996383 0.02689397 2.94799e-7 0.9968673 0.07909274 -3.05014e-7 -0.9996384 0.02689266 3.57887e-7 0.9986331 0.05201154 -0.005173265 0.99972 0.02366429 -3.4706e-7 -0.9996383 0.02689266 -4.86487e-7 0.99972 0.02366423 6.55596e-7 0.9986466 0.05201131 6.39892e-7 -0.9996383 0.02689266 -6.50686e-7 0.99972 0.02366465 1.75404e-6 0.9986464 0.05201208 1.74274e-6 -0.9996384 0.02689427 -1.7539e-6 -0.9996383 0.02689331 5.04511e-7 -0.9996384 0.02689176 3.18784e-7 0.9968672 0.07909375 -4.01403e-7 0.9992495 0.03873497 -3.53846e-7 0.99972 0.02366417 -3.45377e-7 -0.9996384 0.02689182 3.02794e-7 0.9968673 0.07909274 -2.87237e-7 -0.9996384 0.02689301 3.22345e-7 0.9968674 0.07909268 -3.24704e-7 0.9992496 0.03873354 -3.58593e-7 0.99972 0.02366429 -3.49231e-7 -0.9996383 0.02689266 -4.83706e-7 0.99972 0.02366465 6.34325e-7 0.9986466 0.05201131 6.55446e-7 -0.9996383 0.02689397 -6.34273e-7</float_array>
+          <technique_common>
+            <accessor source="#Plane_254-mesh-normals-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_254-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_254-mesh-positions"/>
+        </vertices>
+        <polylist material="Teak-material" count="34">
+          <input semantic="VERTEX" source="#Plane_254-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_254-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 5 0 1 0 1 1 6 1 2 1 0 2 7 2 3 2 3 3 8 3 0 3 11 4 12 4 8 4 10 5 26 5 9 5 9 6 12 6 8 6 15 7 16 7 12 7 13 8 27 8 17 8 19 9 20 9 16 9 27 10 22 10 21 10 17 11 20 11 16 11 23 12 25 12 20 12 24 13 31 13 25 13 28 14 30 14 24 14 29 15 31 15 25 15 0 16 4 16 5 16 1 17 5 17 6 17 0 18 4 18 7 18 3 19 11 19 8 19 11 20 15 20 12 20 13 21 9 21 26 21 10 22 14 22 26 22 9 23 13 23 12 23 15 24 19 24 16 24 13 25 26 25 27 25 19 26 23 26 20 26 21 27 17 27 27 27 27 28 18 28 22 28 17 29 21 29 20 29 23 30 29 30 25 30 24 31 30 31 31 31 28 32 32 32 30 32 29 33 33 33 31 33</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Plane_009" name="Plane_009" type="NODE">
+        <matrix sid="transform">-1 1.71362e-8 4.45e-7 0.009952217 1.9312e-6 -8.68226e-8 0.2304269 2.236299 1.49012e-8 1.15 1.73967e-8 -0.1625195 0 0 0 1</matrix>
+        <instance_geometry url="#Plane_015-mesh" name="Plane_009">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Teak_005-material" target="#Teak_005-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Plane_016" name="Plane_016" type="NODE">
+        <matrix sid="transform">1 -1.71362e-8 -4.79793e-7 -0.02398685 -2.08219e-6 8.68226e-8 -0.2304269 -1.487957 1.49012e-8 1.15 1.73967e-8 -0.1587334 0 0 0 1</matrix>
+        <instance_geometry url="#Plane_254-mesh" name="Plane_016">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Teak-material" target="#Teak-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
